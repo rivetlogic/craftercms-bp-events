@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/faq</content-type>	<display-template>/templates/web/section/faq.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4939</objectGroupId>
+	<objectId>49397fcc-4337-e1a2-19f7-b96212ee43e2</objectId>
+	<file-name>faq.xml</file-name>
+	<folder-name/>
+	<internal-name>faq</internal-name>
+	<navLabel>FAQ</navLabel>
+	<placeInNav>false</placeInNav>
+	<title>DO YOU HAVE QUESTIONS?</title>
+	<description>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description>
+	<createdDate>5/24/2017 0:58:13</createdDate>
+	<createdDate_dt>5/24/2017 0:58:13</createdDate_dt>
+	<lastModifiedDate>5/24/2017 1:1:53</lastModifiedDate>
+	<lastModifiedDate_dt>5/24/2017 1:1:53</lastModifiedDate_dt>
+	<faqs>	<item>	<question>What is Responsive Design?</question>
+	<answer>&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;
+&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;</answer>
+	</item>	<item>	<question>What are latest UX Developments?</question>
+	<answer>&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer>
+	</item>	<item>	<question>What things about Social Media will be discussed?</question>
+	<answer>&lt;p&gt;Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer>
+	</item></faqs>
+</component>

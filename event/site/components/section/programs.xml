@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/programs</content-type>	<display-template>/templates/web/section/programs.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9b80</objectGroupId>
+	<objectId>9b80edd5-3cf0-4a8f-1d3c-8073ae9730e6</objectId>
+	<file-name>programs.xml</file-name>
+	<folder-name/>
+	<internal-name>programs</internal-name>
+	<navLabel>Programs</navLabel>
+	<sectionTitle>Our Programs</sectionTitle>
+	<placeInNav>true</placeInNav>
+	<sectionDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</sectionDescription>
+	<programs>	<item>	<programDay>FIRST DAY</programDay>
+	<programTime>09.00 AM</programTime>
+	<programLocation>Room 240</programLocation>
+	<programTitle>Introduction to Design</programTitle>
+	<programSubtitle>By Jenny Green</programSubtitle>
+	<programDescription>Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum.</programDescription>
+	<programPicture>/static-assets/images/program-img1.jpg</programPicture>
+	</item>	<item>	<programDay>FIRST DAY</programDay>
+	<programTime>10.00 AM</programTime>
+	<programLocation>Room 360</programLocation>
+	<programTitle>Front-End Development</programTitle>
+	<programSubtitle>By Johnathan Mark</programSubtitle>
+	<programDescription>Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</programDescription>
+	<programPicture>/static-assets/images/program-img2.jpg</programPicture>
+	</item>	<item>	<programDay>FIRST DAY</programDay>
+	<programTime>11.00 AM</programTime>
+	<programLocation>Room 450</programLocation>
+	<programTitle>Social Media Marketing</programTitle>
+	<programSubtitle>By Johnathan Doe</programSubtitle>
+	<programDescription>Nam pulvinar, elit vitae rhoncus pretium, massa urna bibendum ex, aliquam efficitur lorem odio vitae erat. Integer rutrum viverra magna, nec ultrices risus rutrum nec.</programDescription>
+	<programPicture>/static-assets/images/program-img3.jpg</programPicture>
+	</item>	<item>	<programDay>SECOND DAY</programDay>
+	<programTime>11.00 AM</programTime>
+	<programLocation>Room 240</programLocation>
+	<programTitle>Backend Development</programTitle>
+	<programSubtitle>By Matt Lee</programSubtitle>
+	<programDescription>Integer rutrum viverra magna, nec ultrices risus rutrum nec. Pellentesque interdum vel nisi nec tincidunt. Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.</programDescription>
+	<programPicture>/static-assets/images/program-img4.jpg</programPicture>
+	</item>	<item>	<programDay>SECOND DAY</programDay>
+	<programTime>01.00 PM</programTime>
+	<programLocation>Room 450</programLocation>
+	<programTitle>Web Application Lite</programTitle>
+	<programSubtitle>By David Orlando</programSubtitle>
+	<programDescription>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</programDescription>
+	<programPicture>/static-assets/images/program-img5.jpg</programPicture>
+	</item>	<item>	<programDay>SECOND DAY</programDay>
+	<programTime>03.00 PM</programTime>
+	<programLocation>Room 650</programLocation>
+	<programTitle>Professional UX Design</programTitle>
+	<programSubtitle>By James Lee Mark</programSubtitle>
+	<programDescription>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</programDescription>
+	<programPicture>/static-assets/images/program-img6.jpg</programPicture>
+	</item>	<item>	<programDay>THIRD DAY</programDay>
+	<programTime>03.00 PM</programTime>
+	<programLocation>Room 750</programLocation>
+	<programTitle>Online Shopping Business</programTitle>
+	<programSubtitle>By Michael Walker</programSubtitle>
+	<programDescription>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</programDescription>
+	<programPicture>/static-assets/images/program-img7.jpg</programPicture>
+	</item>	<item>	<programDay>THIRD DAY</programDay>
+	<programTime>05.00 PM</programTime>
+	<programLocation>Room 850</programLocation>
+	<programTitle>Introduction to Mobile App</programTitle>
+	<programSubtitle>By Cherry Stella</programSubtitle>
+	<programDescription>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</programDescription>
+	<programPicture>/static-assets/images/program-img8.jpg</programPicture>
+	</item>	<item>	<programDay>THIRD DAY</programDay>
+	<programTime>07.00 PM</programTime>
+	<programLocation>Room 750</programLocation>
+	<programTitle>Bootstrap UI Dessign</programTitle>
+	<programSubtitle>By John David</programSubtitle>
+	<programDescription>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</programDescription>
+	<programPicture>/static-assets/images/program-img9.jpg</programPicture>
+	</item></programs>
+	<createdDate>5/23/2017 23:24:24</createdDate>
+	<createdDate_dt>5/23/2017 23:24:24</createdDate_dt>
+	<lastModifiedDate>5/24/2017 17:47:49</lastModifiedDate>
+	<lastModifiedDate_dt>5/24/2017 17:47:49</lastModifiedDate_dt>
+</component>

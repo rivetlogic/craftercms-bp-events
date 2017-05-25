@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/rte</content-type>	<display-template>/templates/web/section/rte.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c224</objectGroupId>
+	<objectId>c22479ac-fa76-a4e8-b234-cfe25eb4bf75</objectId>
+	<file-name>venue.xml</file-name>
+	<folder-name/>
+	<internal-name>venue</internal-name>
+	<navLabel>Venue</navLabel>
+	<placeInNav>true</placeInNav>
+	<bgImage>/static-assets/images/venue-bg.jpg</bgImage>
+	<body>&lt;h2 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 20px; margin-bottom: 10px;"&gt;VENUE&lt;/h2&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 10px; font-size: 14px; padding-top: 12px; padding-bottom: 18px;"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.&lt;/p&gt;
+&lt;h4 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 10px; margin-bottom: 10px; font-size: 18px;"&gt;New Event&lt;/h4&gt;
+&lt;h4 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 10px; margin-bottom: 10px; font-size: 18px;"&gt;120 Market Street, Suite 110&lt;/h4&gt;
+&lt;h4 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 10px; margin-bottom: 10px; font-size: 18px;"&gt;San Francisco, CA 10110&lt;/h4&gt;
+&lt;h4 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 10px; margin-bottom: 10px; font-size: 18px;"&gt;Tel: 010-020-0120&lt;/h4&gt;</body>
+	<createdDate>5/24/2017 1:4:16</createdDate>
+	<createdDate_dt>5/24/2017 1:4:16</createdDate_dt>
+	<lastModifiedDate>5/24/2017 1:10:15</lastModifiedDate>
+	<lastModifiedDate_dt>5/24/2017 1:10:15</lastModifiedDate_dt>
+</component>

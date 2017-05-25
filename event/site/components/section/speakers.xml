@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/speakers</content-type>	<display-template>/templates/web/section/speakers.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1f63</objectGroupId>
+	<objectId>1f63db62-b69f-5c06-379a-91f4d25df9ec</objectId>
+	<file-name>speakers.xml</file-name>
+	<folder-name/>
+	<internal-name>speakers</internal-name>
+	<navLabel>Speakers</navLabel>
+	<speakersTitle>CREATIVE SPEAKERS</speakersTitle>
+	<placeInNav>true</placeInNav>
+	<speakersDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet</speakersDescription>
+	<createdDate>5/23/2017 23:15:40</createdDate>
+	<createdDate_dt>5/23/2017 23:15:40</createdDate_dt>
+	<lastModifiedDate>5/23/2017 23:20:1</lastModifiedDate>
+	<lastModifiedDate_dt>5/23/2017 23:20:1</lastModifiedDate_dt>
+	<speakers>	<item>	<speakerImage>/static-assets/images/speakers-img1.jpg</speakerImage>
+	<speakerName>Jenny Green</speakerName>
+	<speakerTitle>UI Designer</speakerTitle>
+	</item>	<item>	<speakerName>David Yoon</speakerName>
+	<speakerTitle>Creative Directory</speakerTitle>
+	<speakerImage>/static-assets/images/speakers-img2.jpg</speakerImage>
+	</item>	<item>	<speakerImage>/static-assets/images/speakers-img3.jpg</speakerImage>
+	<speakerName>Je Mary Lee</speakerName>
+	<speakerTitle>Web Specialist</speakerTitle>
+	</item>	<item>	<speakerImage>/static-assets/images/speakers-img4.jpg</speakerImage>
+	<speakerName>Johnathan Doe</speakerName>
+	<speakerTitle>Frontend Dev</speakerTitle>
+	</item>	<item>	<speakerImage>/static-assets/images/speakers-img5.jpg</speakerImage>
+	<speakerName>Elite Hamilton</speakerName>
+	<speakerTitle>Marketing Guru</speakerTitle>
+	</item></speakers>
+</component>
