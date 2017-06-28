@@ -95,6 +95,8 @@ $(document).ready(function() {
           success: function(data){
               if (data.success) {
                   $('#success-dialog').modal('show');
+                  $('form')[0].reset();
+                  $('form')[1].reset();
               } else {
                   $('#fail-dialog').modal('show');
               }
