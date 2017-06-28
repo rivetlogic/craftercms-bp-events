@@ -518,6 +518,9 @@ footer {
   content: "+";
 }
 
+.faq-collapse-fix {
+    padding-right: 40px !important;
+}
 
 
 /*

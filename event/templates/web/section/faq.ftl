@@ -22,7 +22,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-${faq_index}">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-${faq_index}" aria-expanded="false" aria-controls="collapse-${faq_index}">
+                                    <a class="collapsed faq-collapse-fix" data-toggle="collapse" data-parent="#accordion" href="#collapse-${faq_index}" aria-expanded="false" aria-controls="collapse-${faq_index}">
                                         ${faq.question}
                                     </a>
                                 </h4>
