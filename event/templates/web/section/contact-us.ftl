@@ -32,7 +32,7 @@
                         <#if "true" == field.isTextArea>
                             <textarea name="${field.name}" rows="5" class="form-control" id="${field.name}" placeholder="${field.label}"></textarea>
                         <#else>
-                            <input name="${field.name}" type="text" class="form-control" id="${field.name}" placeholder="${field.label}">
+                            <input name="${field.name}" class="form-control" id="${field.name}" placeholder="${field.label}" required="" ${field.label?contains("mail")?then('type="email"','type="text" ')}>
                         </#if>
                         </#list></#if>
                         <div class="col-md-6 col-sm-10">
