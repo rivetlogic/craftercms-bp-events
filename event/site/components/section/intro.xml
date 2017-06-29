@@ -14,8 +14,8 @@
 	<backgroundImage>/static-assets/images/intro-bg.jpg</backgroundImage>
 	<createdDate>5/23/2017 22:13:28</createdDate>
 	<createdDate_dt>5/23/2017 22:13:28</createdDate_dt>
-	<lastModifiedDate>5/24/2017 0:48:19</lastModifiedDate>
-	<lastModifiedDate_dt>5/24/2017 0:48:19</lastModifiedDate_dt>
+	<lastModifiedDate>6/29/2017 20:17:41</lastModifiedDate>
+	<lastModifiedDate_dt>6/29/2017 20:17:41</lastModifiedDate_dt>
 	<featuredSections>	<item>	<overwriteLabel>LEARN MORE</overwriteLabel>
 	<section>		<item><key>/site/components/section/image.xml</key>
 <value>image</value>
@@ -23,6 +23,7 @@
 <disableFlattening>false</disableFlattening>
 		</item></section>
 	<buttonStyle>btn-default</buttonStyle>
+	<showOnMobile>false</showOnMobile>
 	</item>	<item>	<overwriteLabel>REGISTER NOW</overwriteLabel>
 	<section>		<item><key>/site/components/section/register.xml</key>
 <value>register</value>
@@ -30,5 +31,6 @@
 <disableFlattening>false</disableFlattening>
 		</item></section>
 	<buttonStyle>btn-danger</buttonStyle>
+	<showOnMobile>true</showOnMobile>
 	</item></featuredSections>
 </component>

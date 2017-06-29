@@ -16,7 +16,7 @@
 					<#if (contentModel.featuredSections.item)??><#list contentModel.featuredSections.item as feature>
 						<#list feature.section.item as section>
 							<#assign content =  siteItemService.getSiteItem(section.key) />
-							<a href="#${content['internal-name']}" class="btn btn-lg ${feature.buttonStyle!'btn-default'} smoothScroll wow fadeInUp hidden-xs"
+							<a href="#${content['internal-name']}" class="btn btn-lg ${feature.buttonStyle!'btn-default'} smoothScroll wow fadeInUp ${(feature.showOnMobile == "true")?then('','hidden-xs')}"
 								data-wow-delay="2.3s">
 								<#if feature.overwriteLabel?? && feature.overwriteLabel?trim?has_content>
 									${feature.overwriteLabel}
