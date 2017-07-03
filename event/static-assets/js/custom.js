@@ -116,4 +116,6 @@ $(document).ready(function() {
 
 })(jQuery);
 
+var vid = document.getElementById("main-video");
+vid.pause();
 
