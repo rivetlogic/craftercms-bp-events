@@ -7,7 +7,7 @@
     <div class="embed-responsive embed-responsive-16by9">
         <#if contentModel.video?? && (contentModel.video?length>0) >
             <div class="fullscreen-bg">
-                <video controls>
+                <video id="main-video" controls preload="auto" autoplay >
                     <source src="${contentModel.video}" type="video/mp4">
                 </video>
             </div>
