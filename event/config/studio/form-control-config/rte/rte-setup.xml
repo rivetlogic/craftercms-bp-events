@@ -59,8 +59,8 @@
 	
     <rteModules>
         <module>insert-image</module>		
-        <module>channel</module>
-        <module>edit-html</module>
+        <module>channel</module>   
+        <module>edit-html</module>     
 	</rteModules>
     
     

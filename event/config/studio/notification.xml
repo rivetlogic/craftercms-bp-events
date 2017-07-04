@@ -63,7 +63,7 @@
 ]]></body>
             </emailTemplate>
 
-            <emailTemplate key="contentApproval">
+            <emailTemplate key="contentApproved">
                 <subject><![CDATA[<#if scheduleDate??>Content Scheduled <#else>Content Approved</#if>]]></subject>
                 <!-- Timezone can/is being overwritten in the following template -->
                 <body><![CDATA[
@@ -103,7 +103,7 @@
                         ]]></body>
             </emailTemplate>
 
-            <emailTemplate key="submitToApproval">
+            <emailTemplate key="submittedForReview">
                 <subject>Content Review</subject>
                 <body><![CDATA[
                     						<#setting time_zone='EST'>
@@ -113,7 +113,7 @@
                         </head>
                         <body style=" font-size: 12pt">
                             <p>
-                                ${submitter.firstName!submitter.username} ${submitter.lastName} has submitted items for your review:
+                                ${submitter.first_name!submitter.username} ${submitter.last_name} has submitted items for your review:
                               <ul>
                               <#list files as file>
                                 	<#if file.page>
