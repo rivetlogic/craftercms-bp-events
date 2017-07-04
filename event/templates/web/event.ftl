@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row" <@studio.iceAttr iceGroup="footer" label="Footer"/>>
 
-            <div class="col-md-12 col-sm-12">
+            <div class="col-md-12 col-sm-12 social-spacer">
                 <p class="wow fadeInUp" data-wow-delay="0.6s">${model.copyright!''}</p>
 
             <#if (contentModel.socialMedia.item)??>
