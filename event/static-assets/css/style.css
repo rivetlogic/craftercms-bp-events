@@ -13,6 +13,9 @@ body {
 	font-weight: 400;
 }
 
+textarea {
+   resize: none;
+}
 
 /*
     Typography
