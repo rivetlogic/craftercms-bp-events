@@ -4,7 +4,7 @@
  [templatemo](http://www.templatemo.com/tm-486-new-event) where is described as a  "fully responsive one-page template for events, conferences or workshops."
  
 # Registration and Contact-Us
-Registration and Contact-Us functionality can be customized by editing the controllers at
+Registration and Contact-Us have no default functionality out of the box. You can specify what to do with the received form data by editing the controllers at
   
   - /scripts/rest/register.post.groovy
   - /scripts/rest/contactUs.post.groovy
