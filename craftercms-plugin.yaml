@@ -9,7 +9,7 @@ blueprint:
   name: "Crafter CMS Blueprint: Event"
   tags: blueprint,event
   version:
-    major: 1
+    major: 2
     minor: 0
     patch: 0
   description: |
