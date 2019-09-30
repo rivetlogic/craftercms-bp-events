@@ -22,11 +22,11 @@ plugin:
 media:
   screenshots:
     - title: Home Page
-        description: Screenshot of the home page
-        url: ""
-      - title: Style Page
-        description: Screenshot of the style page
-        url: ""
+      description: Screenshot of the home page
+      url: ""
+    - title: Style Page
+      description: Screenshot of the style page
+      url: ""
 developer:
   company:
     name: Rivet Logic
