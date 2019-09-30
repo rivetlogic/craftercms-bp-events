@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site-config>
-   <version>2</version>
+<?xml version="1.0" encoding="UTF-8"?><site-config>
+   <version>3</version>
    <wem-project>craftercms-events-bp</wem-project>
    <display-name>craftercms-events-bp</display-name>
    <default-timezone>EST5EDT</default-timezone>
@@ -13,22 +12,10 @@
         Items that match the paths specified will be grouped together in the dashboard widget
         -->
       <folders>
-         <folder name="Pages"
-                 path="/website"
-                 read-direct-children="false"
-                 attach-root-prefix="true"/>
-         <folder name="Components"
-                 path="/components"
-                 read-direct-children="false"
-                 attach-root-prefix="true"/>
-         <folder name="Assets"
-                 path="/static-assets"
-                 read-direct-children="false"
-                 attach-root-prefix="false"/>
-         <folder name="Templates"
-                 path="/templates"
-                 read-direct-children="false"
-                 attach-root-prefix="false"/>
+         <folder name="Pages" path="/website" read-direct-children="false" attach-root-prefix="true"/>
+         <folder name="Components" path="/components" read-direct-children="false" attach-root-prefix="true"/>
+         <folder name="Assets" path="/static-assets" read-direct-children="false" attach-root-prefix="false"/>
+         <folder name="Templates" path="/templates" read-direct-children="false" attach-root-prefix="false"/>
       </folders>
       <!-- Item Patterns -->
       <patterns><!-- The section below helps determine the type of content based on regex. This shows up in two places:
