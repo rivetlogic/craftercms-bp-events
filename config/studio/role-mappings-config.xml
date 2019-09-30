@@ -1,25 +1,3 @@
-<!--<?xml version="1.0" encoding="UTF-8"?><role-mappings>-->
-<!--	<version>2</version>-->
-<!--   <groups>-->
-<!--      <group name="craftercms-events-bp_admin">-->
-<!--         <role>admin</role>-->
-<!--      </group>-->
-<!--      <group name="craftercms-events-bp_developer">-->
-<!--         <role>developer</role>-->
-<!--      </group>-->
-<!--      <group name="craftercms-events-bp_author">-->
-<!--         <role>author</role>-->
-<!--      </group>-->
-<!--      <group name="craftercms-events-bp_publisher">-->
-<!--         <role>publisher</role>-->
-<!--      </group>-->
-<!--      <group name="craftercms-events-bp_reviewer">-->
-<!--         <role>reviewer</role>-->
-<!--      </group>-->
-<!--   </groups>-->
-<!--</role-mappings>-->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~ Copyright (C) 2007-2019 Crafter Software Corporation. All Rights Reserved.
