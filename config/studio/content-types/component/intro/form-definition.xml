@@ -464,7 +464,7 @@
                   </field>
                   <field>
                      <type>checkbox</type>
-                     <id>showOnMobile</id>
+                     <id>showOnMobile_b</id>
                      <iceId/>
                      <title>Show on mobile</title>
                      <description/>
