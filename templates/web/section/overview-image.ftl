@@ -4,7 +4,7 @@
 ============================== -->
 <#macro drawImage>
 	<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
-		<img src="${model.image}" class="img-responsive" alt="Overview">
+		<img src="${model.image_s}" class="img-responsive" alt="Overview">
 	</div>
 </#macro>
 

@@ -294,7 +294,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>image</id>
+               <id>image_s</id>
                <iceId>image-details</iceId>
                <title>Image</title>
                <description/>
