@@ -221,7 +221,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>imageDescription</id>
+               <id>imageDescription_html</id>
                <iceId>image-details</iceId>
                <title>Description</title>
                <description/>
