@@ -342,7 +342,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>imagePosition</id>
+               <id>imagePosition_s</id>
                <iceId>image-details</iceId>
                <title>Image Position</title>
                <description/>

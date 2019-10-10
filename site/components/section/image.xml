@@ -13,7 +13,7 @@
 	<imageDescription_html>&lt;p&gt;This is a Bootstrap v3.3.6 layout that is responsive and mobile friendly. You may download and modify this template for your website. Please tell your friends about templatemo.&lt;/p&gt;
 &lt;p&gt;Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.&lt;/p&gt;</imageDescription_html>
 	<image_s>/static-assets/images/overview-img.jpg</image_s>
-	<imagePosition>right</imagePosition>
+	<imagePosition_s>right</imagePosition_s>
 	<createdDate>2017-5-23T22:38:8.000Z</createdDate>
 	<createdDate_dt>2017-5-23T22:38:8.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-23T22:54:2.000Z</lastModifiedDate>

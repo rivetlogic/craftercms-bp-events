@@ -12,12 +12,12 @@
     <div class="container">
         <div class="row" <@studio.iceAttr iceGroup="image-details" path=contentModel.storeUrl label="Image - Details"/>>
 
-			<#if "left" == model.imagePosition><@drawImage/></#if>
+			<#if "left" == model.imagePosition_s><@drawImage/></#if>
             <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
                 <h3>${model.imageTitle_t!''}</h3>
                 <p>${model.imageDescription_html!''}</p>
             </div>
-			<#if "right" == model.imagePosition><@drawImage/></#if>
+			<#if "right" == model.imagePosition_s><@drawImage/></#if>
 			
         </div>
     </div>
