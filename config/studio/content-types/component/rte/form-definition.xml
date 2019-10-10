@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>rte</type>
-               <id>body</id>
+               <id>body_html</id>
                <iceId>rte-section</iceId>
                <title>Body</title>
                <description/>

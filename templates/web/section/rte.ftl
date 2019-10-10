@@ -7,7 +7,7 @@
         <div class="row" <@studio.iceAttr iceGroup="rte-section" path=contentModel.storeUrl label="RTE"/>>
 
             <div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
-                ${model.body!''}
+                ${model.body_html!''}
             </div>
 
         </div>
