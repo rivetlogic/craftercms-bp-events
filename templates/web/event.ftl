@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>${model.siteTitle}</title>
+    <title>${model.siteTitle_t}</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta charset="UTF-8">
@@ -44,13 +44,13 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand" <@studio.iceAttr iceGroup="header" label="Header"/> >${model.pageTitle!""}</a>
+            <a href="#" class="navbar-brand" <@studio.iceAttr iceGroup="header" label="Header"/> >${model.pageTitle_t!""}</a>
         </div>
 
         <div class="collapse navbar-collapse">
-        <#if (contentModel.sections.item)??>
+        <#if (contentModel.sections_o.item)??>
             <ul class="nav navbar-nav navbar-right">
-                <#list contentModel.sections.item as item>
+                <#list contentModel.sections_o.item as item>
                     <#assign section =  siteItemService.getSiteItem(item.key) />
                     <#if (section.placeInNav?? && ("true" == section.placeInNav))>
                         <li><a href="#${section['internal-name']!''}" class="smoothScroll">${section.navLabel!""}</a></li>
@@ -63,9 +63,9 @@
 </div>
 
 
-<#if (contentModel.sections.item)??>
+<#if (contentModel.sections_o.item)??>
     <div  <@studio.iceAttr iceGroup="sections" label="Sections"/>>
-    <#list contentModel.sections.item as section>
+    <#list contentModel.sections_o.item as section>
         <@renderComponent component=section />
     </#list>
     </div>
@@ -91,13 +91,13 @@
         <div class="row" <@studio.iceAttr iceGroup="footer" label="Footer"/>>
 
             <div class="col-md-12 col-sm-12 social-spacer">
-                <p class="wow fadeInUp" data-wow-delay="0.6s">${model.copyright!''}</p>
+                <p class="wow fadeInUp" data-wow-delay="0.6s">${model.copyright_t!''}</p>
 
-            <#if (contentModel.socialMedia.item)??>
+            <#if (contentModel.socialMedia_o.item)??>
                 <ul class="social-icon">
                     <#assign delay=1 />
-                    <#list contentModel.socialMedia.item as media>
-                        <li><a href="${media.url_s}" class="fa ${media.icon} wow fadeInUp" data-wow-delay="${delay}s"
+                    <#list contentModel.socialMedia_o.item as media>
+                        <li><a href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp" data-wow-delay="${delay}s"
                                target="_blank"></a></li>
                         <#assign delay= (delay + 0.3) />
                     </#list>
