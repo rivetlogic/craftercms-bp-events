@@ -14,13 +14,13 @@
 	<lastModifiedDate>2017-5-23T22:47:8.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-23T22:47:8.000Z</lastModifiedDate_dt>
 	<detailElements_o>	<item>	<elementType_s>fa fa-group</elementType_s>
-	<elementTitle>650 Participants</elementTitle>
+	<elementTitle_t>650 Participants</elementTitle_t>
 	<elementDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</elementDescription>
 	</item>	<item>	<elementType_s>fa fa-clock-o</elementType_s>
-	<elementTitle>24 Programs</elementTitle>
+	<elementTitle_t>24 Programs</elementTitle_t>
 	<elementDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</elementDescription>
 	</item>	<item>	<elementType_s>fa fa-microphone</elementType_s>
-	<elementTitle>11 Speakers</elementTitle>
+	<elementTitle_t>11 Speakers</elementTitle_t>
 	<elementDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</elementDescription>
 	</item></detailElements_o>
 </component>

@@ -222,7 +222,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>elementTitle</id>
+                     <id>elementTitle_t</id>
                      <iceId>details-elements</iceId>
                      <title>Title</title>
                      <description/>
