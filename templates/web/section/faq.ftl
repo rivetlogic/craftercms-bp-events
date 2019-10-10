@@ -18,7 +18,7 @@
             <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-                    <#if (model.faqs.item)??><#list model.faqs.item as faq>
+                    <#if (model.faqs_o.item)??><#list model.faqs_o.item as faq>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-${faq_index}">
                                 <h4 class="panel-title">

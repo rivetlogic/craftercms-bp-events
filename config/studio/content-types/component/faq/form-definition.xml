@@ -284,7 +284,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>faqs</id>
+               <id>faqs_o</id>
                <iceId>faq-section</iceId>
                <title>Questions and Answers</title>
                <description/>

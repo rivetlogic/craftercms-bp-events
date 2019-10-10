@@ -15,7 +15,7 @@
 	<createdDate_dt>2017-5-24T0:58:13.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T1:1:53.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T1:1:53.000Z</lastModifiedDate_dt>
-	<faqs>	<item>	<question>What is Responsive Design?</question>
+	<faqs_o>	<item>	<question>What is Responsive Design?</question>
 	<answer>&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;
 &lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;</answer>
 	</item>	<item>	<question>What are latest UX Developments?</question>
@@ -24,5 +24,5 @@
 	</item>	<item>	<question>What things about Social Media will be discussed?</question>
 	<answer>&lt;p&gt;Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer>
-	</item></faqs>
+	</item></faqs_o>
 </component>
