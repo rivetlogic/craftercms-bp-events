@@ -16,9 +16,9 @@
             <#if (contentModel.sponsors_o.item)??><#list contentModel.sponsors_o.item as sponsor>
                 <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.3s">
                     <#if sponsor.url?? && sponsor.url?trim?has_content>
-                        <a href="${sponsor.url!''}"><img src="${sponsor.picture}" class="img-responsive sponsor-image" alt="sponsors"></a>
+                        <a href="${sponsor.url!''}"><img src="${sponsor.picture_s}" class="img-responsive sponsor-image" alt="sponsors"></a>
                     <#else>
-                        <img src="${sponsor.picture}" class="img-responsive sponsor-image" alt="sponsors">
+                        <img src="${sponsor.picture_s}" class="img-responsive sponsor-image" alt="sponsors">
                     </#if>
                 </div>
             </#list></#if>

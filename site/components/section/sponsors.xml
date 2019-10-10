@@ -16,12 +16,12 @@
 	<lastModifiedDate>2017-5-24T2:1:15.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T2:1:15.000Z</lastModifiedDate_dt>
 	<sponsors_o>	<item>	<url/>
-	<picture>/static-assets/images/sponsor-img1.jpg</picture>
-	</item>	<item>	<picture>/static-assets/images/sponsor-img2.jpg</picture>
+	<picture_s>/static-assets/images/sponsor-img1.jpg</picture_s>
+	</item>	<item>	<picture_s>/static-assets/images/sponsor-img2.jpg</picture_s>
 	<url/>
-	</item>	<item>	<picture>/static-assets/images/sponsor-img3.jpg</picture>
+	</item>	<item>	<picture_s>/static-assets/images/sponsor-img3.jpg</picture_s>
 	<url/>
-	</item>	<item>	<picture>/static-assets/images/sponsor-img4.jpg</picture>
+	</item>	<item>	<picture_s>/static-assets/images/sponsor-img4.jpg</picture_s>
 	<url/>
 	</item></sponsors_o>
 </component>

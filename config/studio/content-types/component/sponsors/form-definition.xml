@@ -305,7 +305,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>picture</id>
+                     <id>picture_s</id>
                      <iceId>sponsors</iceId>
                      <title>Picture</title>
                      <description/>
