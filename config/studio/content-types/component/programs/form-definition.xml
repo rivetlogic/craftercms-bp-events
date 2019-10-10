@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>sectionTitle</id>
+               <id>sectionTitle_t</id>
                <iceId>programs-section</iceId>
                <title>Section Title</title>
                <description/>

@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>programs</internal-name>
 	<navLabel>Programs</navLabel>
-	<sectionTitle>Our Programs</sectionTitle>
+	<sectionTitle_t>Our Programs</sectionTitle_t>
 	<placeInNav>true</placeInNav>
 	<sectionDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</sectionDescription>
 	<programs>	<item>	<programDay>FIRST DAY</programDay>
