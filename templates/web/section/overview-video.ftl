@@ -5,10 +5,10 @@
 <#macro renderVideo>
 <div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
     <div class="embed-responsive embed-responsive-16by9">
-        <#if contentModel.video?? && (contentModel.video?length>0) >
+        <#if contentModel.video_s?? && (contentModel.video_s?length>0) >
             <div class="fullscreen-bg">
                 <video id="main-video" controls preload="auto" autoplay >
-                    <source src="${contentModel.video}" type="video/mp4">
+                    <source src="${contentModel.video_s}" type="video/mp4">
                 </video>
             </div>
             <div class="overlay"></div>
