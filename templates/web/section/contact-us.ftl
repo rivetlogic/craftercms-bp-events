@@ -9,7 +9,7 @@
 
             <div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
                 <div class="contact_des">
-                    <div>${model.formDescription!''}</div>
+                    <div>${model.formDescription_html!''}</div>
                         <#if model.attachment?? && model.attachment.item??>
                             <a href="${model.attachment.item.key}" class="btn btn-danger">
                                 <#if model.attachmentLabel?? && model.attachmentLabel?trim?has_content>

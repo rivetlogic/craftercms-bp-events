@@ -211,7 +211,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>formDescription</id>
+               <id>formDescription_html</id>
                <iceId>contact-us</iceId>
                <title>Description</title>
                <description/>
