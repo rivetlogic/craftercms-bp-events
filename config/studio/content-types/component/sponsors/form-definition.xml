@@ -284,7 +284,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>sponsors</id>
+               <id>sponsors_o</id>
                <iceId>sponsors</iceId>
                <title>Sponsors</title>
                <description/>

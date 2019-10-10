@@ -15,7 +15,7 @@
 	<createdDate_dt>2017-5-24T1:15:40.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T2:1:15.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T2:1:15.000Z</lastModifiedDate_dt>
-	<sponsors>	<item>	<url/>
+	<sponsors_o>	<item>	<url/>
 	<picture>/static-assets/images/sponsor-img1.jpg</picture>
 	</item>	<item>	<picture>/static-assets/images/sponsor-img2.jpg</picture>
 	<url/>
@@ -23,5 +23,5 @@
 	<url/>
 	</item>	<item>	<picture>/static-assets/images/sponsor-img4.jpg</picture>
 	<url/>
-	</item></sponsors>
+	</item></sponsors_o>
 </component>
