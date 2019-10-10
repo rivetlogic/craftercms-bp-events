@@ -16,7 +16,7 @@
 
             <div id="owl-speakers" class="owl-carousel">
 
-            <#if (contentModel.speakers.item)??><#list contentModel.speakers.item as speaker>
+            <#if (contentModel.speakers_o.item)??><#list contentModel.speakers_o.item as speaker>
                 <div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
                     <div class="speakers-wrapper">
                         <img src="${speaker.speakerImage!''}" class="img-responsive" alt="speakers">

@@ -254,7 +254,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>speakers</id>
+               <id>speakers_o</id>
                <iceId>speakers-details</iceId>
                <title>Speakers</title>
                <description/>

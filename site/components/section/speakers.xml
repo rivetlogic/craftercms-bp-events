@@ -15,7 +15,7 @@
 	<createdDate_dt>2017-5-23T23:15:40.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-23T23:20:1.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-23T23:20:1.000Z</lastModifiedDate_dt>
-	<speakers>	<item>	<speakerImage>/static-assets/images/speakers-img1.jpg</speakerImage>
+	<speakers_o>	<item>	<speakerImage>/static-assets/images/speakers-img1.jpg</speakerImage>
 	<speakerName>Jenny Green</speakerName>
 	<speakerTitle>UI Designer</speakerTitle>
 	</item>	<item>	<speakerName>David Yoon</speakerName>
@@ -30,5 +30,5 @@
 	</item>	<item>	<speakerImage>/static-assets/images/speakers-img5.jpg</speakerImage>
 	<speakerName>Elite Hamilton</speakerName>
 	<speakerTitle>Marketing Guru</speakerTitle>
-	</item></speakers>
+	</item></speakers_o>
 </component>
