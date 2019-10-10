@@ -21,12 +21,12 @@
     <div class="container">
         <div class="row" <@studio.iceAttr iceGroup="video-details" path=contentModel.storeUrl label="Video - Details"/>>
 
-			<#if "left" == model.videoPosition><@renderVideo/></#if>
+			<#if "left" == model.videoPosition_t><@renderVideo/></#if>
             <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
                 <h3>${model.videoTitle_t!''}</h3>
                 <p>${model.videoDescription_t!''}</p>
             </div>
-			<#if "right" == model.videoPosition><@renderVideo/></#if>
+			<#if "right" == model.videoPosition_t><@renderVideo/></#if>
         </div>
     </div>
 </section>

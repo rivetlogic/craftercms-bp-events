@@ -294,7 +294,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>videoPosition</id>
+               <id>videoPosition_t</id>
                <iceId>video-details</iceId>
                <title>Video Position</title>
                <description/>
