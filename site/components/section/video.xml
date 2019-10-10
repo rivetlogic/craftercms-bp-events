@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>video</internal-name>
 	<navLabel>Video</navLabel>
-	<videoTitle>WATCH VIDEO</videoTitle>
+	<videoTitle_t>WATCH VIDEO</videoTitle_t>
 	<placeInNav>false</placeInNav>
 	<videoPosition>right</videoPosition>
 	<video>/static-assets/videos/Social Media - 1360.mp4</video>

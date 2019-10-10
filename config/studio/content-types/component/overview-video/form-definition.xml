@@ -178,7 +178,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>videoTitle</id>
+               <id>videoTitle_t</id>
                <iceId>video-details</iceId>
                <title>Title</title>
                <description/>
