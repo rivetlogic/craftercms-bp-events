@@ -26,14 +26,14 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.&lt;/p&gt;</formDescription_html>
 	<formFields_o>	<item>	<label_t>Name</label_t>
 	<name_t>name</name_t>
-	<isTextArea>false</isTextArea>
+	<isTextArea_b>false</isTextArea_b>
 	<required>false</required>
 	</item>	<item>	<label_t>Email</label_t>
 	<name_t>email</name_t>
-	<isTextArea>false</isTextArea>
+	<isTextArea_b>false</isTextArea_b>
 	</item>	<item>	<label_t>Message</label_t>
 	<name_t>message</name_t>
-	<isTextArea>true</isTextArea>
+	<isTextArea_b>true</isTextArea_b>
 	</item></formFields_o>
 	<bgImage_s>/static-assets/images/contact-bg.jpg</bgImage_s>
 </component>

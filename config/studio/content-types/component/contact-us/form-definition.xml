@@ -482,7 +482,7 @@
                   </field>
                   <field>
                      <type>checkbox</type>
-                     <id>isTextArea</id>
+                     <id>isTextArea_b</id>
                      <iceId>contact-us</iceId>
                      <title>Render as Text Area</title>
                      <description/>
