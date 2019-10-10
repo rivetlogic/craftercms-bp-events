@@ -9,7 +9,7 @@
             <div class="wow bounceIn col-md-12 col-sm-12">
                 <div class="section-title">
                     <h2>${model.title_t!''}</h2>
-                    <p>${model.description!''}</p>
+                    <p>${model.description_html!''}</p>
                 </div>
             </div>
 

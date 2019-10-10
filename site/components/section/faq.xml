@@ -10,7 +10,7 @@
 	<navLabel>FAQ</navLabel>
 	<placeInNav>false</placeInNav>
 	<title_t>DO YOU HAVE QUESTIONS?</title_t>
-	<description>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description>
+	<description_html>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description_html>
 	<createdDate>2017-5-24T0:58:13.000Z</createdDate>
 	<createdDate_dt>2017-5-24T0:58:13.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T1:1:53.000Z</lastModifiedDate>
