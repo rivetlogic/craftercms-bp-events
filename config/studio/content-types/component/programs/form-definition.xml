@@ -361,7 +361,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>programLocation</id>
+                     <id>programLocation_t</id>
                      <iceId>programs-section</iceId>
                      <title>Location</title>
                      <description/>

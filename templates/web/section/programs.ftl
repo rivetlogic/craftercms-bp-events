@@ -55,7 +55,7 @@
                             <div class="col-md-10 col-sm-10">
                                 <h6>
                                     <span><i class="fa fa-clock-o"></i> ${program.programTime_t!''}</span>
-                                    <span><i class="fa fa-map-marker"></i> ${program.programLocation!''}</span>
+                                    <span><i class="fa fa-map-marker"></i> ${program.programLocation_t!''}</span>
                                 </h6>
                                 <h3>${program.programTitle!''}</h3>
                                 <h4>${program.programSubtitle!''}</h4>
