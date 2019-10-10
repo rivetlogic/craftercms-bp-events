@@ -533,7 +533,7 @@
                   </field>
                   <field>
                      <type>image-picker</type>
-                     <id>programPicture</id>
+                     <id>programPicture_s</id>
                      <iceId>programs-section</iceId>
                      <title>Picture</title>
                      <description/>

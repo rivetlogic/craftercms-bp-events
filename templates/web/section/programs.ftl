@@ -48,8 +48,8 @@
                             </#if>
                             <!-- program speaker here -->
                             <div class="col-md-2 col-sm-2">
-                                <#if program.programPicture?? && program.programPicture?trim?has_content>
-                                    <img src="${program.programPicture!''}" class="img-responsive" alt="program">
+                                <#if program.programPicture_s?? && program.programPicture_s?trim?has_content>
+                                    <img src="${program.programPicture_s!''}" class="img-responsive" alt="program">
                                 </#if>
                             </div>
                             <div class="col-md-10 col-sm-10">
