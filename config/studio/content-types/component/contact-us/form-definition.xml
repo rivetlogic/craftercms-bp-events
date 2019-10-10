@@ -439,7 +439,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>name</id>
+                     <id>name_t</id>
                      <iceId>contact-us</iceId>
                      <title>Name</title>
                      <description/>

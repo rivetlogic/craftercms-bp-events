@@ -19,12 +19,12 @@
 	<lastModifiedDate_dt>2017-5-24T17:54:44.000Z</lastModifiedDate_dt>
 	<bgImage_s>/static-assets/images/register-bg.jpg</bgImage_s>
 	<formFields_o>	<item>	<label_t>First Name</label_t>
-	<name>firstName</name>
+	<name_t>firstName</name_t>
 	</item>	<item>	<label_t>Last Name</label_t>
-	<name>lastName</name>
+	<name_t>lastName</name_t>
 	</item>	<item>	<label_t>Phone Number</label_t>
-	<name>phoneNumber</name>
+	<name_t>phoneNumber</name_t>
 	</item>	<item>	<label_t>Email Address</label_t>
-	<name>email</name>
+	<name_t>email</name_t>
 	</item></formFields_o>
 </component>
