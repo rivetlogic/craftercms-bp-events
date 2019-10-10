@@ -514,7 +514,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>attachmentLabel</id>
+               <id>attachmentLabel_t</id>
                <iceId>contact-us</iceId>
                <title>Attachment Label</title>
                <description/>

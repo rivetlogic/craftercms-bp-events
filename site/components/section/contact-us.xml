@@ -10,7 +10,7 @@
 	<navLabel>Contact</navLabel>
 	<formTitle_t>Keep in touch</formTitle_t>
 	<submitLabel_t>SEND</submitLabel_t>
-	<attachmentLabel>DOWNLOAD NOW</attachmentLabel>
+	<attachmentLabel_t>DOWNLOAD NOW</attachmentLabel_t>
 	<placeInNav>true</placeInNav>
 	<attachment>	<item>	<key>/static-assets/images/intro-bg.jpg</key>
 	<value>/static-assets/images/intro-bg.jpg</value>

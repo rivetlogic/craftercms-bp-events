@@ -12,8 +12,8 @@
                     <div>${model.formDescription_html!''}</div>
                         <#if model.attachment?? && model.attachment.item??>
                             <a href="${model.attachment.item.key}" class="btn btn-danger">
-                                <#if model.attachmentLabel?? && model.attachmentLabel?trim?has_content>
-                                    ${model.attachmentLabel}
+                                <#if model.attachmentLabel_t?? && model.attachmentLabel_t?trim?has_content>
+                                    ${model.attachmentLabel_t}
                                 <#else>
                                     DOWNLOAD
                                 </#if>
