@@ -431,7 +431,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>buttonStyle</id>
+                     <id>buttonStyle_s</id>
                      <iceId>intro-featured</iceId>
                      <title>Button Style</title>
                      <description/>

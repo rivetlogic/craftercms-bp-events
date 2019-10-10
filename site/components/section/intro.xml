@@ -22,7 +22,7 @@
 <include>/site/components/section/image.xml</include>
 <disableFlattening>false</disableFlattening>
 		</item></section_o>
-	<buttonStyle>btn-default</buttonStyle>
+	<buttonStyle_s>btn-default</buttonStyle_s>
 	<showOnMobile>false</showOnMobile>
 	</item>	<item>	<overwriteLabel_t>REGISTER NOW</overwriteLabel_t>
 	<section_o>		<item><key>/site/components/section/register.xml</key>
@@ -30,7 +30,7 @@
 <include>/site/components/section/register.xml</include>
 <disableFlattening>false</disableFlattening>
 		</item></section_o>
-	<buttonStyle>btn-danger</buttonStyle>
+	<buttonStyle_s>btn-danger</buttonStyle_s>
 	<showOnMobile>true</showOnMobile>
 	</item></featuredSections_o>
 </component>
