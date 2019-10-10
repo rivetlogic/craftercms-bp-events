@@ -221,7 +221,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>datePlace</id>
+               <id>datePlace_t</id>
                <iceId>intro-header</iceId>
                <title>Date and Place</title>
                <description/>

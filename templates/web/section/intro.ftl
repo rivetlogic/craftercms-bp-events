@@ -8,7 +8,7 @@
 
 			<div class="col-md-12 col-sm-12">
             	<div  <@studio.iceAttr iceGroup="intro-header" path=contentModel.storeUrl label="Intro - Header"/>>
-					<h3 class="wow bounceIn" data-wow-delay="0.9s">${model.datePlace!""}</h3>
+					<h3 class="wow bounceIn" data-wow-delay="0.9s">${model.datePlace_t!""}</h3>
 					<h1 class="wow fadeInUp" data-wow-delay="1.6s">${model.title_t!""}</h1>
                 </div>
 

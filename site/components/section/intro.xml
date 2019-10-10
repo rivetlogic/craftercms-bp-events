@@ -9,7 +9,7 @@
 	<internal-name>intro</internal-name>
 	<navLabel>Intro</navLabel>
 	<title_t>Web Design Conference</title_t>
-	<datePlace>July 22 - 26 in San Francisco, CA</datePlace>
+	<datePlace_t>July 22 - 26 in San Francisco, CA</datePlace_t>
 	<placeInNav>true</placeInNav>
 	<backgroundImage>/static-assets/images/intro-bg.jpg</backgroundImage>
 	<createdDate>2017-5-23T22:13:28.000Z</createdDate>
