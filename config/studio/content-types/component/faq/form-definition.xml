@@ -348,7 +348,7 @@
                   </field>
                   <field>
                      <type>rte</type>
-                     <id>answer</id>
+                     <id>answer_html</id>
                      <iceId>faq-section</iceId>
                      <title>Answer</title>
                      <description/>

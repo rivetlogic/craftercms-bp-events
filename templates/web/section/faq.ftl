@@ -29,7 +29,7 @@
                             </div>
                             <div id="collapse-#{faq_index}" class="panel-collapse collapse <#if faq_index==0> in</#if>" role="tabpanel" aria-labelledby="heading-${faq_index}">
                                 <div class="panel-body">
-                                    ${faq.answer}
+                                    ${faq.answer_html}
                                 </div>
                             </div>
                         </div>

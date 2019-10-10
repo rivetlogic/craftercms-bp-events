@@ -16,13 +16,13 @@
 	<lastModifiedDate>2017-5-24T1:1:53.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T1:1:53.000Z</lastModifiedDate_dt>
 	<faqs_o>	<item>	<question_t>What is Responsive Design?</question_t>
-	<answer>&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;
-&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;</answer>
+	<answer_html>&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;
+&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;</answer_html>
 	</item>	<item>	<question_t>What are latest UX Developments?</question_t>
-	<answer>&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer>
+	<answer_html>&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer_html>
 	</item>	<item>	<question_t>What things about Social Media will be discussed?</question_t>
-	<answer>&lt;p&gt;Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer>
+	<answer_html>&lt;p&gt;Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer_html>
 	</item></faqs_o>
 </component>
