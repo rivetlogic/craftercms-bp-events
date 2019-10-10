@@ -10,7 +10,7 @@
 	<navLabel>Programs</navLabel>
 	<sectionTitle_t>Our Programs</sectionTitle_t>
 	<placeInNav>true</placeInNav>
-	<sectionDescription>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</sectionDescription>
+	<sectionDescription_t>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</sectionDescription_t>
 	<programs>	<item>	<programDay>FIRST DAY</programDay>
 	<programTime>09.00 AM</programTime>
 	<programLocation>Room 240</programLocation>

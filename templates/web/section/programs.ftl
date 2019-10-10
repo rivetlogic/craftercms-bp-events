@@ -9,7 +9,7 @@
             <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
                 <div class="section-title">
                     <h2>${model.sectionTitle_t!''}</h2>
-                    <p>${model.sectionDescription!''}</p>
+                    <p>${model.sectionDescription_t!''}</p>
                 </div>
             </div>
             <#if (contentModel.programs.item)??>
