@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>sponsors</internal-name>
 	<navLabel>Sponsors</navLabel>
-	<title>OUR SPONSORS</title>
+	<title_t>OUR SPONSORS</title_t>
 	<placeInNav>true</placeInNav>
 	<description>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description>
 	<createdDate>2017-5-24T1:15:40.000Z</createdDate>

@@ -7,7 +7,7 @@
         <div class="row" <@studio.iceAttr iceGroup="register" path=contentModel.storeUrl label="Register"/>>
 
             <div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
-                <h2>${model.title!''}</h2>
+                <h2>${model.title_t!''}</h2>
                 <h3>${model.description!''}</h3>
                 <p>${model.instructions!''}</p>
             </div>

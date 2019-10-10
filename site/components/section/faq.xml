@@ -9,7 +9,7 @@
 	<internal-name>faq</internal-name>
 	<navLabel>FAQ</navLabel>
 	<placeInNav>false</placeInNav>
-	<title>DO YOU HAVE QUESTIONS?</title>
+	<title_t>DO YOU HAVE QUESTIONS?</title_t>
 	<description>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description>
 	<createdDate>2017-5-24T0:58:13.000Z</createdDate>
 	<createdDate_dt>2017-5-24T0:58:13.000Z</createdDate_dt>

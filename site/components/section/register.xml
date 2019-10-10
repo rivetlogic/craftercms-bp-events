@@ -6,7 +6,7 @@
 	<objectId>2391e2f1-1208-281d-84c5-ecd0f0b24976</objectId>
 	<internal-name>register</internal-name>
 	<navLabel>Register</navLabel>
-	<title>Register Here</title>
+	<title_t>Register Here</title_t>
 	<submitLabel_t>REGISTER</submitLabel_t>
 	<placeInNav>true</placeInNav>
 	<instructions>&lt;h3&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.&lt;/h3&gt;

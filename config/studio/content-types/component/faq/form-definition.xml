@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>textarea</type>
-               <id>title</id>
+               <id>title_t</id>
                <iceId>faq-section</iceId>
                <title>Title</title>
                <description/>
