@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>speakersTitle</id>
+               <id>speakersTitle_t</id>
                <iceId>speakers-details</iceId>
                <title>Section Title</title>
                <description/>

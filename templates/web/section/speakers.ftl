@@ -8,7 +8,7 @@
 
             <div class="col-md-12 col-sm-12 wow bounceIn">
                 <div class="section-title">
-                    <h2>${model.speakersTitle!''}</h2>
+                    <h2>${model.speakersTitle_t!''}</h2>
                     <p>${model.speakersDescription!''}</p>
                 </div>
             </div>

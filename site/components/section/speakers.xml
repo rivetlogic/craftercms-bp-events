@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>speakers</internal-name>
 	<navLabel>Speakers</navLabel>
-	<speakersTitle>CREATIVE SPEAKERS</speakersTitle>
+	<speakersTitle_t>CREATIVE SPEAKERS</speakersTitle_t>
 	<placeInNav>true</placeInNav>
 	<speakersDescription>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet</speakersDescription>
 	<createdDate>2017-5-23T23:15:40.000Z</createdDate>
