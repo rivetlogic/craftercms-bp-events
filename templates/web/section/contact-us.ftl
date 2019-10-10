@@ -28,7 +28,7 @@
                         <h2>${model.formTitle_t!''}</h2>
                     </div>
                     <form action="/api/1/services/contactUs.json" method="post">
-                        <#if (model.formFields.item)??><#list model.formFields.item as field>
+                        <#if (model.formFields_o.item)??><#list model.formFields_o.item as field>
                         <#if "true" == field.isTextArea>
                             <textarea name="${field.name}" rows="5" class="form-control" id="${field.name}" placeholder="${field.label}" required=""></textarea>
                         <#else>

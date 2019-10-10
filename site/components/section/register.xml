@@ -18,7 +18,7 @@
 	<lastModifiedDate>2017-5-24T17:54:44.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T17:54:44.000Z</lastModifiedDate_dt>
 	<bgImage_s>/static-assets/images/register-bg.jpg</bgImage_s>
-	<formFields>	<item>	<label>First Name</label>
+	<formFields_o>	<item>	<label>First Name</label>
 	<name>firstName</name>
 	</item>	<item>	<label>Last Name</label>
 	<name>lastName</name>
@@ -26,5 +26,5 @@
 	<name>phoneNumber</name>
 	</item>	<item>	<label>Email Address</label>
 	<name>email</name>
-	</item></formFields>
+	</item></formFields_o>
 </component>

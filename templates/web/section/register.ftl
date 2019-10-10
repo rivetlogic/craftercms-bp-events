@@ -14,7 +14,7 @@
 
             <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
                 <form action="/api/1/services/register.json" method="post">
-                    <#if (model.formFields.item)??><#list model.formFields.item as field>
+                    <#if (model.formFields_o.item)??><#list model.formFields_o.item as field>
                         <input name="${field.name}" class="form-control" id="${field.name}" placeholder="${field.label}" required="" ${field.label?contains("mail")?then('type="email"','type="text" ')}>
                     </#list></#if>
                     <div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">

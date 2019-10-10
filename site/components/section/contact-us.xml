@@ -24,7 +24,7 @@
 &lt;p&gt;Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget. Suspendisse eu turpis sed elit pretium congue.&lt;/p&gt;
 &lt;p&gt;Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.&lt;/p&gt;</formDescription_html>
-	<formFields>	<item>	<label>Name</label>
+	<formFields_o>	<item>	<label>Name</label>
 	<name>name</name>
 	<isTextArea>false</isTextArea>
 	<required>false</required>
@@ -34,6 +34,6 @@
 	</item>	<item>	<label>Message</label>
 	<name>message</name>
 	<isTextArea>true</isTextArea>
-	</item></formFields>
+	</item></formFields_o>
 	<bgImage_s>/static-assets/images/contact-bg.jpg</bgImage_s>
 </component>

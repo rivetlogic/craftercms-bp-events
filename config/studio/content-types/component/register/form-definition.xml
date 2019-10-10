@@ -375,7 +375,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>formFields</id>
+               <id>formFields_o</id>
                <iceId>register</iceId>
                <title>Form fields</title>
                <description/>
