@@ -12,12 +12,12 @@
                     <p>${model.sectionDescription_t!''}</p>
                 </div>
             </div>
-            <#if (contentModel.programs.item)??>
+            <#if (contentModel.programs_o.item)??>
                 <!-- Nav tabs -->
                 <#assign currentDay=""/>
                 <#assign currentDayIndex=0/>
                 <ul class="nav nav-tabs" role="tablist">
-                <#list contentModel.programs.item as program>
+                <#list contentModel.programs_o.item as program>
                 <#if currentDay != program.programDay>
                     <#assign currentDay = program.programDay/>
                     <#assign currentDayIndex = (currentDayIndex + 1) />
@@ -32,7 +32,7 @@
                         <#assign currentDay=""/>
                         <#assign currentDayIndex=0/>
                         <#assign closePane=false>
-                        <#list contentModel.programs.item as program>
+                        <#list contentModel.programs_o.item as program>
                             <#if currentDay != program.programDay>
                                 <#if closePane>
                                 </div>

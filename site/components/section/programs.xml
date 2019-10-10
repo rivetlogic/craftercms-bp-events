@@ -11,7 +11,7 @@
 	<sectionTitle_t>Our Programs</sectionTitle_t>
 	<placeInNav>true</placeInNav>
 	<sectionDescription_t>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</sectionDescription_t>
-	<programs>	<item>	<programDay>FIRST DAY</programDay>
+	<programs_o>	<item>	<programDay>FIRST DAY</programDay>
 	<programTime>09.00 AM</programTime>
 	<programLocation>Room 240</programLocation>
 	<programTitle>Introduction to Design</programTitle>
@@ -74,7 +74,7 @@
 	<programSubtitle>By John David</programSubtitle>
 	<programDescription>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</programDescription>
 	<programPicture>/static-assets/images/program-img9.jpg</programPicture>
-	</item></programs>
+	</item></programs_o>
 	<createdDate>2017-5-23T23:24:24.000Z</createdDate>
 	<createdDate_dt>2017-5-23T23:24:24.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T17:47:49.000Z</lastModifiedDate>
