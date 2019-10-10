@@ -2,7 +2,7 @@
 <!-- =========================
    REGISTER SECTION
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section register-section" style="background: url('${model.bgImage!""}') 50%;">
+<section id="${model['internal-name']}" class="parallax-section register-section" style="background: url('${model.bgImage_s!""}') 50%;">
     <div class="container">
         <div class="row" <@studio.iceAttr iceGroup="register" path=contentModel.storeUrl label="Register"/>>
 

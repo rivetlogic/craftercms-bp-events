@@ -3,7 +3,7 @@
 <!-- =========================
     CONTACT SECTION
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section contact-section" style="background: url('${model.bgImage!""}') 50%;">
+<section id="${model['internal-name']}" class="parallax-section contact-section" style="background: url('${model.bgImage_s!""}') 50%;">
     <div class="container">
         <div class="row"  <@studio.iceAttr iceGroup="contact-us" path=contentModel.storeUrl label="Contact Us"/>>
 

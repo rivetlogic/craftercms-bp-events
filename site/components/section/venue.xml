@@ -9,7 +9,7 @@
 	<internal-name>venue</internal-name>
 	<navLabel>Venue</navLabel>
 	<placeInNav>true</placeInNav>
-	<bgImage>/static-assets/images/venue-bg.jpg</bgImage>
+	<bgImage_s>/static-assets/images/venue-bg.jpg</bgImage_s>
 	<body>&lt;h2 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 20px; margin-bottom: 10px;"&gt;VENUE&lt;/h2&gt;
 &lt;p style="box-sizing: border-box; margin: 0px 0px 10px; font-size: 14px; padding-top: 12px; padding-bottom: 18px;"&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.&lt;/p&gt;
 &lt;h4 style="box-sizing: border-box; line-height: 1.1; color: #333333; margin-top: 10px; margin-bottom: 10px; font-size: 18px;"&gt;New Event&lt;/h4&gt;

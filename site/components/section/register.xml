@@ -17,7 +17,7 @@
 	<createdDate_dt>2017-5-24T0:21:14.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T17:54:44.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T17:54:44.000Z</lastModifiedDate_dt>
-	<bgImage>/static-assets/images/register-bg.jpg</bgImage>
+	<bgImage_s>/static-assets/images/register-bg.jpg</bgImage_s>
 	<formFields>	<item>	<label>First Name</label>
 	<name>firstName</name>
 	</item>	<item>	<label>Last Name</label>

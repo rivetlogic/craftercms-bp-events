@@ -284,7 +284,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>bgImage</id>
+               <id>bgImage_s</id>
                <iceId>contact-us</iceId>
                <title>Background Image</title>
                <description/>

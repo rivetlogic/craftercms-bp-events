@@ -241,7 +241,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>bgImage</id>
+               <id>bgImage_s</id>
                <iceId>rte-section</iceId>
                <title>Background Image</title>
                <description/>

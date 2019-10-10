@@ -35,5 +35,5 @@
 	<name>message</name>
 	<isTextArea>true</isTextArea>
 	</item></formFields>
-	<bgImage>/static-assets/images/contact-bg.jpg</bgImage>
+	<bgImage_s>/static-assets/images/contact-bg.jpg</bgImage_s>
 </component>
