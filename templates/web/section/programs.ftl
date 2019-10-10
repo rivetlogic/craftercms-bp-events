@@ -57,7 +57,7 @@
                                     <span><i class="fa fa-clock-o"></i> ${program.programTime_t!''}</span>
                                     <span><i class="fa fa-map-marker"></i> ${program.programLocation_t!''}</span>
                                 </h6>
-                                <h3>${program.programTitle!''}</h3>
+                                <h3>${program.programTitle_t!''}</h3>
                                 <h4>${program.programSubtitle!''}</h4>
                                 <p>${program.programDescription!''}</p>
                             </div>

@@ -404,7 +404,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>programTitle</id>
+                     <id>programTitle_t</id>
                      <iceId>programs-section</iceId>
                      <title>Title</title>
                      <description/>
