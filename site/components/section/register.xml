@@ -7,7 +7,7 @@
 	<internal-name>register</internal-name>
 	<navLabel>Register</navLabel>
 	<title>Register Here</title>
-	<submitLabel>REGISTER</submitLabel>
+	<submitLabel_t>REGISTER</submitLabel_t>
 	<placeInNav>true</placeInNav>
 	<instructions>&lt;h3&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.&lt;/h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</instructions>

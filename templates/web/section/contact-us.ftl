@@ -36,7 +36,7 @@
                         </#if>
                         </#list></#if>
                         <div class="col-md-6 col-sm-10">
-                            <input name="submit" type="submit" class="form-control" id="submit" value="<#if model.submitLabel?? && model.submitLabel?trim?has_content>${model.submitLabel}<#else>SEND</#if>">
+                            <input name="submit" type="submit" class="form-control" id="submit" value="<#if model.submitLabel_t?? && model.submitLabel_t?trim?has_content>${model.submitLabel_t}<#else>SEND</#if>">
                         </div>
                     </form>
                  </div>

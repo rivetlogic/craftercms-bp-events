@@ -19,7 +19,7 @@
                     </#list></#if>
                     <div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
                         <input name="submit" type="submit"
-                               class="form-control" id="submit" value="<#if model.submitLabel?? && model.submitLabel?trim?has_content>${model.submitLabel}<#else>Submit</#if>">
+                               class="form-control" id="submit" value="<#if model.submitLabel_t?? && model.submitLabel_t?trim?has_content>${model.submitLabel_t}<#else>Submit</#if>">
                     </div>
                 </form>
             </div>

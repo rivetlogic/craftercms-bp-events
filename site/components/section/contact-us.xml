@@ -9,7 +9,7 @@
 	<internal-name>contact-us</internal-name>
 	<navLabel>Contact</navLabel>
 	<formTitle_t>Keep in touch</formTitle_t>
-	<submitLabel>SEND</submitLabel>
+	<submitLabel_t>SEND</submitLabel_t>
 	<attachmentLabel>DOWNLOAD NOW</attachmentLabel>
 	<placeInNav>true</placeInNav>
 	<attachment>	<item>	<key>/static-assets/images/intro-bg.jpg</key>

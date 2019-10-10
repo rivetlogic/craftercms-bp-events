@@ -332,7 +332,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>submitLabel</id>
+               <id>submitLabel_t</id>
                <iceId>contact-us</iceId>
                <title>Submit Label</title>
                <description/>
