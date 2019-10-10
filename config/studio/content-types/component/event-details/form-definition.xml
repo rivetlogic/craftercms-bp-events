@@ -189,7 +189,7 @@
                <fields>
                   <field>
                      <type>dropdown</type>
-                     <id>elementType</id>
+                     <id>elementType_s</id>
                      <iceId>details-elements</iceId>
                      <title>Type</title>
                      <description/>
