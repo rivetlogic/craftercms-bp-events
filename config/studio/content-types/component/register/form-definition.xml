@@ -211,7 +211,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>instructions</id>
+               <id>instructions_html</id>
                <iceId>register</iceId>
                <title>Instructions</title>
                <description/>

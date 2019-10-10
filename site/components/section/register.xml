@@ -9,8 +9,8 @@
 	<title_t>Register Here</title_t>
 	<submitLabel_t>REGISTER</submitLabel_t>
 	<placeInNav>true</placeInNav>
-	<instructions>&lt;h3&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</instructions>
+	<instructions_html>&lt;h3&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</instructions_html>
 	<file-name>register.xml</file-name>
 	<folder-name/>
 	<createdDate>2017-5-24T0:21:14.000Z</createdDate>

@@ -9,7 +9,7 @@
             <div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
                 <h2>${model.title_t!''}</h2>
                 <h3>${model.description_html!''}</h3>
-                <p>${model.instructions!''}</p>
+                <p>${model.instructions_html!''}</p>
             </div>
 
             <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
