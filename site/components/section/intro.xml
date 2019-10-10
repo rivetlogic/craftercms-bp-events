@@ -16,7 +16,7 @@
 	<createdDate_dt>2017-5-23T22:13:28.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-29T20:17:41.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-6-29T20:17:41.000Z</lastModifiedDate_dt>
-	<featuredSections>	<item>	<overwriteLabel>LEARN MORE</overwriteLabel>
+	<featuredSections_o>	<item>	<overwriteLabel>LEARN MORE</overwriteLabel>
 	<section>		<item><key>/site/components/section/image.xml</key>
 <value>image</value>
 <include>/site/components/section/image.xml</include>
@@ -32,5 +32,5 @@
 		</item></section>
 	<buttonStyle>btn-danger</buttonStyle>
 	<showOnMobile>true</showOnMobile>
-	</item></featuredSections>
+	</item></featuredSections_o>
 </component>

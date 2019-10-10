@@ -319,7 +319,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>featuredSections</id>
+               <id>featuredSections_o</id>
                <iceId>intro-featured</iceId>
                <title>Featured Sections</title>
                <description/>
