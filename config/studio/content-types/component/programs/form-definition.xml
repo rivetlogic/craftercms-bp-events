@@ -275,7 +275,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>programDay</id>
+                     <id>programDay_t</id>
                      <iceId>programs-section</iceId>
                      <title>Tab Name</title>
                      <description/>

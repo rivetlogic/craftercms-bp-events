@@ -18,8 +18,8 @@
                 <#assign currentDayIndex=0/>
                 <ul class="nav nav-tabs" role="tablist">
                 <#list contentModel.programs_o.item as program>
-                <#if currentDay != program.programDay>
-                    <#assign currentDay = program.programDay/>
+                <#if currentDay != program.programDay_t>
+                    <#assign currentDay = program.programDay_t/>
                     <#assign currentDayIndex = (currentDayIndex + 1) />
                     <li <#if currentDayIndex==1>class="active"</#if>><a href="#day${currentDayIndex}" aria-controls="day${currentDayIndex}" role="tab" data-toggle="tab">${currentDay}</a></li>
                 </#if>
@@ -33,13 +33,13 @@
                         <#assign currentDayIndex=0/>
                         <#assign closePane=false>
                         <#list contentModel.programs_o.item as program>
-                            <#if currentDay != program.programDay>
+                            <#if currentDay != program.programDay_t>
                                 <#if closePane>
                                 </div>
                                     <#assign closePane=false/>
                                 </#if>
                                 <#assign closePane=true>
-                                <#assign currentDay = program.programDay/>
+                                <#assign currentDay = program.programDay_t/>
                                 <#assign currentDayIndex = (currentDayIndex + 1) />
                                 <div role="tabpanel" class="tab-pane <#if currentDayIndex==1>active</#if>" id="day${currentDayIndex}">
                             <#else>
