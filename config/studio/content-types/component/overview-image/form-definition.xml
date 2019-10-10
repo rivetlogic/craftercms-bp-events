@@ -178,7 +178,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>imageTitle</id>
+               <id>imageTitle_t</id>
                <iceId>image-details</iceId>
                <title>Title</title>
                <description/>

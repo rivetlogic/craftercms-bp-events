@@ -14,7 +14,7 @@
 
 			<#if "left" == model.imagePosition><@drawImage/></#if>
             <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
-                <h3>${model.imageTitle!''}</h3>
+                <h3>${model.imageTitle_t!''}</h3>
                 <p>${model.imageDescription!''}</p>
             </div>
 			<#if "right" == model.imagePosition><@drawImage/></#if>
