@@ -265,7 +265,7 @@
                   </field>
                   <field>
                      <type>textarea</type>
-                     <id>elementDescription</id>
+                     <id>elementDescription_t</id>
                      <iceId>details-elements</iceId>
                      <title>Description</title>
                      <description/>

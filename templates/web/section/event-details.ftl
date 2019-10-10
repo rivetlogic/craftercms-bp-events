@@ -10,7 +10,7 @@
             <div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.3s">
                 <i class="${element.elementType_s!''}"></i>
                 <h3>${element.elementTitle_t!''}</h3>
-                <p>${element.elementDescription!''}</p>
+                <p>${element.elementDescription_t!''}</p>
             </div>
         </#list></#if>
             
