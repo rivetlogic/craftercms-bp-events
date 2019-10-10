@@ -211,7 +211,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>speakersDescription</id>
+               <id>speakersDescription_t</id>
                <iceId>speakers-details</iceId>
                <title>Section Description</title>
                <description/>
