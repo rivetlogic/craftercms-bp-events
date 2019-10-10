@@ -557,7 +557,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>attachment</id>
+               <id>attachment_o</id>
                <iceId>contact-us</iceId>
                <title>Attachment</title>
                <description/>

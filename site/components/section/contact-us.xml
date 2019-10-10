@@ -12,10 +12,10 @@
 	<submitLabel_t>SEND</submitLabel_t>
 	<attachmentLabel_t>DOWNLOAD NOW</attachmentLabel_t>
 	<placeInNav>true</placeInNav>
-	<attachment>	<item>	<key>/static-assets/images/intro-bg.jpg</key>
+	<attachment_o>	<item>	<key>/static-assets/images/intro-bg.jpg</key>
 	<value>/static-assets/images/intro-bg.jpg</value>
 	<fileType_mvs>jpg</fileType_mvs>
-	</item></attachment>
+	</item></attachment_o>
 	<createdDate>2017-5-24T2:11:1.000Z</createdDate>
 	<createdDate_dt>2017-5-24T2:11:1.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T2:50:36.000Z</lastModifiedDate>
