@@ -305,7 +305,7 @@
                <fields>
                   <field>
                      <type>textarea</type>
-                     <id>question</id>
+                     <id>question_t</id>
                      <iceId>faq-section</iceId>
                      <title>Question</title>
                      <description/>
