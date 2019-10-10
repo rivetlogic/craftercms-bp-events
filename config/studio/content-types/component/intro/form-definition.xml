@@ -383,7 +383,7 @@
                   </field>
                   <field>
                      <type>node-selector</type>
-                     <id>section</id>
+                     <id>section_o</id>
                      <iceId>intro-featured</iceId>
                      <title>Section</title>
                      <description/>

@@ -14,7 +14,7 @@
 
                 <div  <@studio.iceAttr iceGroup="intro-featured" path=contentModel.storeUrl label="Intro - Featured"/>>
 					<#if (contentModel.featuredSections_o.item)??><#list contentModel.featuredSections_o.item as feature>
-						<#list feature.section.item as section>
+						<#list feature.section_o.item as section>
 							<#assign content =  siteItemService.getSiteItem(section.key) />
 							<a href="#${content['internal-name']}" class="btn btn-lg ${feature.buttonStyle!'btn-default'} smoothScroll wow fadeInUp ${(feature.showOnMobile == "true")?then('','hidden-xs')}"
 								data-wow-delay="2.3s">
