@@ -318,7 +318,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>programTime</id>
+                     <id>programTime_t</id>
                      <iceId>programs-section</iceId>
                      <title>Time</title>
                      <description/>
