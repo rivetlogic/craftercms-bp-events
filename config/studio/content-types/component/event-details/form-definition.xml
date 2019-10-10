@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>detailElements</id>
+               <id>detailElements_o</id>
                <iceId>detail-elements</iceId>
                <title>Details Elements</title>
                <description/>
