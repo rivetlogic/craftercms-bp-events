@@ -323,7 +323,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>speakerName</id>
+                     <id>speakerName_t</id>
                      <iceId>speakers-details</iceId>
                      <title>Name</title>
                      <description/>
