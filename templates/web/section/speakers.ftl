@@ -19,7 +19,7 @@
             <#if (contentModel.speakers_o.item)??><#list contentModel.speakers_o.item as speaker>
                 <div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
                     <div class="speakers-wrapper">
-                        <img src="${speaker.speakerImage!''}" class="img-responsive" alt="speakers">
+                        <img src="${speaker.speakerImage_s!''}" class="img-responsive" alt="speakers">
                         <div class="speakers-thumb">
                             <h3>${speaker.speakerName!''}</h3>
                             <h6>${speaker.speakerTitle!''}</h6>

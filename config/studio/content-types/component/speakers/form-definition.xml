@@ -275,7 +275,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>speakerImage</id>
+                     <id>speakerImage_s</id>
                      <iceId>speakers-details</iceId>
                      <title>Picture</title>
                      <description/>
