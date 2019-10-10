@@ -58,7 +58,7 @@
                                     <span><i class="fa fa-map-marker"></i> ${program.programLocation_t!''}</span>
                                 </h6>
                                 <h3>${program.programTitle_t!''}</h3>
-                                <h4>${program.programSubtitle!''}</h4>
+                                <h4>${program.programSubtitle_t!''}</h4>
                                 <p>${program.programDescription!''}</p>
                             </div>
                         </#list>

@@ -447,7 +447,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>programSubtitle</id>
+                     <id>programSubtitle_t</id>
                      <iceId>programs-section</iceId>
                      <title>Subtitle</title>
                      <description/>
