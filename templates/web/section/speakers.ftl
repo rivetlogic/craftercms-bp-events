@@ -22,7 +22,7 @@
                         <img src="${speaker.speakerImage_s!''}" class="img-responsive" alt="speakers">
                         <div class="speakers-thumb">
                             <h3>${speaker.speakerName_t!''}</h3>
-                            <h6>${speaker.speakerTitle!''}</h6>
+                            <h6>${speaker.speakerTitle_t!''}</h6>
                         </div>
                     </div>
                 </div>

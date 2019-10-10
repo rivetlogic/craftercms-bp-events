@@ -366,7 +366,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>speakerTitle</id>
+                     <id>speakerTitle_t</id>
                      <iceId>speakers-details</iceId>
                      <title>Title</title>
                      <description/>

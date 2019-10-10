@@ -17,18 +17,18 @@
 	<lastModifiedDate_dt>2017-5-23T23:20:1.000Z</lastModifiedDate_dt>
 	<speakers_o>	<item>	<speakerImage_s>/static-assets/images/speakers-img1.jpg</speakerImage_s>
 	<speakerName_t>Jenny Green</speakerName_t>
-	<speakerTitle>UI Designer</speakerTitle>
+	<speakerTitle_t>UI Designer</speakerTitle_t>
 	</item>	<item>	<speakerName_t>David Yoon</speakerName_t>
-	<speakerTitle>Creative Directory</speakerTitle>
+	<speakerTitle_t>Creative Directory</speakerTitle_t>
 	<speakerImage_s>/static-assets/images/speakers-img2.jpg</speakerImage_s>
 	</item>	<item>	<speakerImage_s>/static-assets/images/speakers-img3.jpg</speakerImage_s>
 	<speakerName_t>Je Mary Lee</speakerName_t>
-	<speakerTitle>Web Specialist</speakerTitle>
+	<speakerTitle_t>Web Specialist</speakerTitle_t>
 	</item>	<item>	<speakerImage_s>/static-assets/images/speakers-img4.jpg</speakerImage_s>
 	<speakerName_t>Johnathan Doe</speakerName_t>
-	<speakerTitle>Frontend Dev</speakerTitle>
+	<speakerTitle_t>Frontend Dev</speakerTitle_t>
 	</item>	<item>	<speakerImage_s>/static-assets/images/speakers-img5.jpg</speakerImage_s>
 	<speakerName_t>Elite Hamilton</speakerName_t>
-	<speakerTitle>Marketing Guru</speakerTitle>
+	<speakerTitle_t>Marketing Guru</speakerTitle_t>
 	</item></speakers_o>
 </component>
