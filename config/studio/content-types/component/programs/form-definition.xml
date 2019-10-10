@@ -490,7 +490,7 @@
                   </field>
                   <field>
                      <type>textarea</type>
-                     <id>programDescription</id>
+                     <id>programDescription_t</id>
                      <iceId>programs-section</iceId>
                      <title>Description</title>
                      <description/>

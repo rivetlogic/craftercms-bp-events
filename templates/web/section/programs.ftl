@@ -59,7 +59,7 @@
                                 </h6>
                                 <h3>${program.programTitle_t!''}</h3>
                                 <h4>${program.programSubtitle_t!''}</h4>
-                                <p>${program.programDescription!''}</p>
+                                <p>${program.programDescription_t!''}</p>
                             </div>
                         </#list>
                         <#if closePane>
