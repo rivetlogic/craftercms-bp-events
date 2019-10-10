@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>contact-us</internal-name>
 	<navLabel>Contact</navLabel>
-	<formTitle>Keep in touch</formTitle>
+	<formTitle_t>Keep in touch</formTitle_t>
 	<submitLabel>SEND</submitLabel>
 	<attachmentLabel>DOWNLOAD NOW</attachmentLabel>
 	<placeInNav>true</placeInNav>

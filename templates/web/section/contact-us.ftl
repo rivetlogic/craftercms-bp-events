@@ -25,7 +25,7 @@
             <div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
                 <div class="contact_detail">
                     <div class="section-title">
-                        <h2>${model.formTitle!''}</h2>
+                        <h2>${model.formTitle_t!''}</h2>
                     </div>
                     <form action="/api/1/services/contactUs.json" method="post">
                         <#if (model.formFields.item)??><#list model.formFields.item as field>

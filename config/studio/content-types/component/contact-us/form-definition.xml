@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>formTitle</id>
+               <id>formTitle_t</id>
                <iceId>contact-us</iceId>
                <title>Title</title>
                <description/>
