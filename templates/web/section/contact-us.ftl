@@ -30,9 +30,9 @@
                     <form action="/api/1/services/contactUs.json" method="post">
                         <#if (model.formFields_o.item)??><#list model.formFields_o.item as field>
                         <#if field.isTextArea_b>
-                            <textarea name="${field.name}" rows="5" class="form-control" id="${field.name}" placeholder="${field.label}" required=""></textarea>
+                            <textarea name="${field.name_t}" rows="5" class="form-control" id="${field.name_t}" placeholder="${field.label_t}" required=""></textarea>
                         <#else>
-                            <input name="${field.name}" class="form-control" id="${field.name}" placeholder="${field.label}" required="" ${field.label?contains("mail")?then('type="email"','type="text" ')}>
+                            <input name="${field.name_t}" class="form-control" id="${field.name_t}" placeholder="${field.label_t}" required="" ${field.label_t?contains("mail")?then('type="email"','type="text" ')}>
                         </#if>
                         </#list></#if>
                         <div class="col-md-6 col-sm-10">
