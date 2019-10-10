@@ -2,7 +2,7 @@
 <!-- =========================
     INTRO SECTION   
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section intro-section" style="background: url('${model.backgroundImage!""}') 50% 0 repeat-y fixed;">
+<section id="${model['internal-name']}" class="parallax-section intro-section" style="background: url('${model.backgroundImage_s!""}') 50% 0 repeat-y fixed;">
 	<div class="container">
 		<div class="row">
 

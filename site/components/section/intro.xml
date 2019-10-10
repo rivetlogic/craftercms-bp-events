@@ -11,7 +11,7 @@
 	<title_t>Web Design Conference</title_t>
 	<datePlace_t>July 22 - 26 in San Francisco, CA</datePlace_t>
 	<placeInNav>true</placeInNav>
-	<backgroundImage>/static-assets/images/intro-bg.jpg</backgroundImage>
+	<backgroundImage_s>/static-assets/images/intro-bg.jpg</backgroundImage_s>
 	<createdDate>2017-5-23T22:13:28.000Z</createdDate>
 	<createdDate_dt>2017-5-23T22:13:28.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-29T20:17:41.000Z</lastModifiedDate>
