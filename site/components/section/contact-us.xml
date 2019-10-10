@@ -24,14 +24,14 @@
 &lt;p&gt;Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget. Suspendisse eu turpis sed elit pretium congue.&lt;/p&gt;
 &lt;p&gt;Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.&lt;/p&gt;</formDescription_html>
-	<formFields_o>	<item>	<label>Name</label>
+	<formFields_o>	<item>	<label_t>Name</label_t>
 	<name>name</name>
 	<isTextArea>false</isTextArea>
 	<required>false</required>
-	</item>	<item>	<label>Email</label>
+	</item>	<item>	<label_t>Email</label_t>
 	<name>email</name>
 	<isTextArea>false</isTextArea>
-	</item>	<item>	<label>Message</label>
+	</item>	<item>	<label_t>Message</label_t>
 	<name>message</name>
 	<isTextArea>true</isTextArea>
 	</item></formFields_o>

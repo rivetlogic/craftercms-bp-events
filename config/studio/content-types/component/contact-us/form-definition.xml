@@ -396,7 +396,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>label</id>
+                     <id>label_t</id>
                      <iceId>contact-us</iceId>
                      <title>Label</title>
                      <description/>
