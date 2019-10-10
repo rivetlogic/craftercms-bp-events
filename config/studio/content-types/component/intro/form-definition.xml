@@ -340,7 +340,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>overwriteLabel</id>
+                     <id>overwriteLabel_t</id>
                      <iceId>intro-featured</iceId>
                      <title>Overwrite Label</title>
                      <description/>

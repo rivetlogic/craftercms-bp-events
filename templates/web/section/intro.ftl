@@ -18,8 +18,8 @@
 							<#assign content =  siteItemService.getSiteItem(section.key) />
 							<a href="#${content['internal-name']}" class="btn btn-lg ${feature.buttonStyle!'btn-default'} smoothScroll wow fadeInUp ${(feature.showOnMobile == "true")?then('','hidden-xs')}"
 								data-wow-delay="2.3s">
-								<#if feature.overwriteLabel?? && feature.overwriteLabel?trim?has_content>
-									${feature.overwriteLabel}
+								<#if feature.overwriteLabel_t?? && feature.overwriteLabel_t?trim?has_content>
+									${feature.overwriteLabel_t}
 								<#else>
 									${content.navLabel}
 								</#if>
