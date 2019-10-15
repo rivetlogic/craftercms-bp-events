@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/register</content-type>	<display-template>/templates/web/section/register.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2391</objectGroupId>
+	<objectId>2391e2f1-1208-281d-84c5-ecd0f0b24976</objectId>
+	<internal-name>register</internal-name>
+	<navLabel>Register</navLabel>
+	<title_t>Register Here</title_t>
+	<submitLabel_t>REGISTER</submitLabel_t>
+	<placeInNav>true</placeInNav>
+	<instructions_html>&lt;h3&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</instructions_html>
+	<file-name>register.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-5-24T0:21:14.000Z</createdDate>
+	<createdDate_dt>2017-5-24T0:21:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T17:54:44.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T17:54:44.000Z</lastModifiedDate_dt>
+	<bgImage_s>/static-assets/images/register-bg.jpg</bgImage_s>
+	<formFields_o>	<item>	<label_t>First Name</label_t>
+	<name_t>firstName</name_t>
+	</item>	<item>	<label_t>Last Name</label_t>
+	<name_t>lastName</name_t>
+	</item>	<item>	<label_t>Phone Number</label_t>
+	<name_t>phoneNumber</name_t>
+	</item>	<item>	<label_t>Email Address</label_t>
+	<name_t>email</name_t>
+	</item></formFields_o>
+</component>

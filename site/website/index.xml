@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/event</content-type>	<display-template>/templates/web/event.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T2:11:17.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T2:11:17.000Z</lastModifiedDate_dt>
+	<siteTitle_t>New Event</siteTitle_t>
+	<pageTitle_t>New Event</pageTitle_t>
+	<section/>
+	<copyright_t>&lt;p&gt;&lt;span&gt;Copyright &amp;copy; 2016 Your Company | Design:&amp;nbsp;&lt;/span&gt;&lt;a rel="nofollow" href="http://www.templatemo.com/page/1" target="_parent"&gt;Templatemo&lt;/a&gt;&lt;/p&gt;</copyright_t>
+	<socialMedia_o>	<item>	<url_s>https://www.facebook.com/</url_s>
+	<icon_s>fa-facebook</icon_s>
+	</item>	<item>	<icon_s>fa-twitter</icon_s>
+	<url_s>https://twitter.com/</url_s>
+	</item>	<item>	<icon_s>fa-dribbble</icon_s>
+	<url_s>https://dribbble.com/</url_s>
+	</item>	<item>	<icon_s>fa-behance</icon_s>
+	<url_s>https://www.behance.net/</url_s>
+	</item>	<item>	<icon_s>fa-google-plus</icon_s>
+	<url_s>https://plus.google.com/</url_s>
+	</item></socialMedia_o>
+	<sections_o>	<item>	<key>/site/components/section/intro.xml</key>
+	<value>intro</value>
+	<include>/site/components/section/intro.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/image.xml</key>
+	<value>image</value>
+	<include>/site/components/section/image.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/summary.xml</key>
+	<value>summary</value>
+	<include>/site/components/section/summary.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/video.xml</key>
+	<value>video</value>
+	<include>/site/components/section/video.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/speakers.xml</key>
+	<value>speakers</value>
+	<include>/site/components/section/speakers.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/programs.xml</key>
+	<value>programs</value>
+	<include>/site/components/section/programs.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/register.xml</key>
+	<value>register</value>
+	<include>/site/components/section/register.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/faq.xml</key>
+	<value>faq</value>
+	<include>/site/components/section/faq.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/venue.xml</key>
+	<value>venue</value>
+	<include>/site/components/section/venue.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/sponsors.xml</key>
+	<value>sponsors</value>
+	<include>/site/components/section/sponsors.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/section/contact-us.xml</key>
+	<value>contact-us</value>
+	<include>/site/components/section/contact-us.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sections_o>
+</page>

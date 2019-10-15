@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/intro</content-type>	<display-template>/templates/web/section/intro.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a045</objectGroupId>
+	<objectId>a04523a8-be28-2d11-c23c-3eed37efc2eb</objectId>
+	<file-name>intro.xml</file-name>
+	<folder-name/>
+	<internal-name>intro</internal-name>
+	<navLabel>Intro</navLabel>
+	<title_t>Web Design Conference</title_t>
+	<datePlace_t>July 22 - 26 in San Francisco, CA</datePlace_t>
+	<placeInNav>true</placeInNav>
+	<backgroundImage_s>/static-assets/images/intro-bg.jpg</backgroundImage_s>
+	<createdDate>2017-5-23T22:13:28.000Z</createdDate>
+	<createdDate_dt>2017-5-23T22:13:28.000Z</createdDate_dt>
+	<lastModifiedDate>2017-6-29T20:17:41.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-6-29T20:17:41.000Z</lastModifiedDate_dt>
+	<featuredSections_o>	<item>	<overwriteLabel_t>LEARN MORE</overwriteLabel_t>
+	<section_o>		<item><key>/site/components/section/image.xml</key>
+<value>image</value>
+<include>/site/components/section/image.xml</include>
+<disableFlattening>false</disableFlattening>
+		</item></section_o>
+	<buttonStyle_s>btn-default</buttonStyle_s>
+	<showOnMobile_b>false</showOnMobile_b>
+	</item>	<item>	<overwriteLabel_t>REGISTER NOW</overwriteLabel_t>
+	<section_o>		<item><key>/site/components/section/register.xml</key>
+<value>register</value>
+<include>/site/components/section/register.xml</include>
+<disableFlattening>false</disableFlattening>
+		</item></section_o>
+	<buttonStyle_s>btn-danger</buttonStyle_s>
+	<showOnMobile_b>true</showOnMobile_b>
+	</item></featuredSections_o>
+</component>

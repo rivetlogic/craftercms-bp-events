@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/contact-us</content-type>	<display-template>/templates/web/section/contact-us.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8a80</objectGroupId>
+	<objectId>8a809e4d-4384-9749-7068-ff04faf3450c</objectId>
+	<file-name>contact-us.xml</file-name>
+	<folder-name/>
+	<internal-name>contact-us</internal-name>
+	<navLabel>Contact</navLabel>
+	<formTitle_t>Keep in touch</formTitle_t>
+	<submitLabel_t>SEND</submitLabel_t>
+	<attachmentLabel_t>DOWNLOAD NOW</attachmentLabel_t>
+	<placeInNav>true</placeInNav>
+	<attachment_o>	<item>	<key>/static-assets/images/intro-bg.jpg</key>
+	<value>/static-assets/images/intro-bg.jpg</value>
+	<fileType_mvs>jpg</fileType_mvs>
+	</item></attachment_o>
+	<createdDate>2017-5-24T2:11:1.000Z</createdDate>
+	<createdDate_dt>2017-5-24T2:11:1.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T2:50:36.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T2:50:36.000Z</lastModifiedDate_dt>
+	<formDescription_html>&lt;h3&gt;New Event&lt;/h3&gt;
+&lt;p&gt;Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget. Suspendisse eu turpis sed elit pretium congue.&lt;/p&gt;
+&lt;p&gt;Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.&lt;/p&gt;</formDescription_html>
+	<formFields_o>	<item>	<label_t>Name</label_t>
+	<name_t>name</name_t>
+	<isTextArea_b>false</isTextArea_b>
+	<required>false</required>
+	</item>	<item>	<label_t>Email</label_t>
+	<name_t>email</name_t>
+	<isTextArea_b>false</isTextArea_b>
+	</item>	<item>	<label_t>Message</label_t>
+	<name_t>message</name_t>
+	<isTextArea_b>true</isTextArea_b>
+	</item></formFields_o>
+	<bgImage_s>/static-assets/images/contact-bg.jpg</bgImage_s>
+</component>

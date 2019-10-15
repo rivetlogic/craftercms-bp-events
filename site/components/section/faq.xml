@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/faq</content-type>	<display-template>/templates/web/section/faq.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4939</objectGroupId>
+	<objectId>49397fcc-4337-e1a2-19f7-b96212ee43e2</objectId>
+	<file-name>faq.xml</file-name>
+	<folder-name/>
+	<internal-name>faq</internal-name>
+	<navLabel>FAQ</navLabel>
+	<placeInNav>false</placeInNav>
+	<title_t>DO YOU HAVE QUESTIONS?</title_t>
+	<description_html>&lt;p&gt;&lt;span&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/span&gt;&lt;/p&gt;</description_html>
+	<createdDate>2017-5-24T0:58:13.000Z</createdDate>
+	<createdDate_dt>2017-5-24T0:58:13.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T1:1:53.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T1:1:53.000Z</lastModifiedDate_dt>
+	<faqs_o>	<item>	<question_t>What is Responsive Design?</question_t>
+	<answer_html>&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;
+&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;</answer_html>
+	</item>	<item>	<question_t>What are latest UX Developments?</question_t>
+	<answer_html>&lt;p&gt;Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer_html>
+	</item>	<item>	<question_t>What things about Social Media will be discussed?</question_t>
+	<answer_html>&lt;p&gt;Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.&lt;/p&gt;</answer_html>
+	</item></faqs_o>
+</component>

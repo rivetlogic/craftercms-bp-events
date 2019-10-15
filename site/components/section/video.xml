@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/overview-video</content-type>	<display-template>/templates/web/section/overview-video.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>59b9</objectGroupId>
+	<objectId>59b90933-c8df-7f2b-ed13-9af6174f0313</objectId>
+	<file-name>video.xml</file-name>
+	<folder-name/>
+	<internal-name>video</internal-name>
+	<navLabel>Video</navLabel>
+	<videoTitle_t>WATCH VIDEO</videoTitle_t>
+	<placeInNav>false</placeInNav>
+	<videoPosition_t>right</videoPosition_t>
+	<video_s>/static-assets/videos/Social Media - 1360.mp4</video_s>
+	<videoDescription_t>&lt;h3&gt;Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</videoDescription_t>
+	<createdDate>2017-5-23T23:5:50.000Z</createdDate>
+	<createdDate_dt>2017-5-23T23:5:50.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T20:17:22.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T20:17:22.000Z</lastModifiedDate_dt>
+</component>
