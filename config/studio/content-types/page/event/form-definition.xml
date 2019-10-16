@@ -418,7 +418,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>sectionsDS</id>
          <title>Sections DataSource</title>
          <interface>item</interface>
