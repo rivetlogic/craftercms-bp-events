@@ -515,7 +515,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>sectionDS</id>
          <title>Section Data Source</title>
          <interface>item</interface>
