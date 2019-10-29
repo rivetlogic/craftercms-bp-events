@@ -210,7 +210,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>instructions_html</id>
                <iceId>register</iceId>
                <title>Instructions</title>
