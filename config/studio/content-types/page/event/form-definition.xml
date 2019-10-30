@@ -242,7 +242,7 @@
          <defaultOpen>true</defaultOpen>
          <fields>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>copyright_t</id>
                <iceId>footer</iceId>
                <title>Copyright</title>

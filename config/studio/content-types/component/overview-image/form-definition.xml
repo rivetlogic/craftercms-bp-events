@@ -220,7 +220,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>imageDescription_html</id>
                <iceId>image-details</iceId>
                <title>Description</title>
