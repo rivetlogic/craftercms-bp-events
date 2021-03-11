@@ -197,6 +197,7 @@ footer {
 .custom-navbar {
     margin-bottom: 0;
     background-color: #101010;
+    z-index: 1010;
 }
 
 .custom-navbar .navbar-brand {
