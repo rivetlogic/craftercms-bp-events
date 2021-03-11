@@ -1,4 +1,4 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,9 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand" <@studio.iceAttr iceGroup="header" label="Header"/> >${model.pageTitle_t!""}</a>
+            <@studio.a $field="pageTitle_t" hreh="#" class="navbar-brand">
+                ${model.pageTitle_t!""}
+            </@studio.a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -64,7 +66,7 @@
 
 
 <#if (contentModel.sections_o.item)??>
-    <div  <@studio.iceAttr iceGroup="sections" label="Sections"/>>
+    <div>
     <#list contentModel.sections_o.item as section>
         <@renderComponent component=section />
     </#list>
@@ -72,7 +74,7 @@
 <#else>
     <section id="contact" class="parallax-section details-section">
         <div class="container">
-            <div class="row" <@studio.iceAttr iceGroup="sections" label="Sections"/>>
+            <div class="row">
                 <h1>This page doesn't have any section included.</h1>
                 <h3>Please edit it on Crafter Studio</h3>
             </div>
@@ -88,21 +90,21 @@
 ============================== -->
 <footer>
     <div class="container">
-        <div class="row" <@studio.iceAttr iceGroup="footer" label="Footer"/>>
+        <div class="row">
 
             <div class="col-md-12 col-sm-12 social-spacer">
                 <p class="wow fadeInUp" data-wow-delay="0.6s">${model.copyright_t!''}</p>
 
-            <#if (contentModel.socialMedia_o.item)??>
-                <ul class="social-icon">
-                    <#assign delay=1 />
-                    <#list contentModel.socialMedia_o.item as media>
-                        <li><a href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp" data-wow-delay="${delay}s"
-                               target="_blank"></a></li>
-                        <#assign delay= (delay + 0.3) />
-                    </#list>
-                </ul>
-            </#if>
+                <#if (contentModel.socialMedia_o.item)??>
+                    <ul class="social-icon">
+                        <#assign delay=1 />
+                        <#list contentModel.socialMedia_o.item as media>
+                            <li><a href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp" data-wow-delay="${delay}s"
+                                   target="_blank"></a></li>
+                            <#assign delay= (delay + 0.3) />
+                        </#list>
+                    </ul>
+                </#if>
             </div>
         </div>
     </div>
@@ -154,7 +156,7 @@
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-<@studio.toolSupport/>
+<@studio.initPageBuilder/>
 
 
 <!-- =========================

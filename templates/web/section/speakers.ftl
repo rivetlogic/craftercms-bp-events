@@ -1,35 +1,48 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 <!-- =========================
     SPEAKERS SECTION
 ============================== -->
-<section id="speakers" class="parallax-section speakers-section">
-    <div class="container">
-        <div class="row" <@studio.iceAttr iceGroup="speakers-details" path=contentModel.storeUrl label="Speakers"/>>
 
-            <div class="col-md-12 col-sm-12 wow bounceIn">
-                <div class="section-title">
-                    <h2>${model.speakersTitle_t!''}</h2>
-                    <p>${model.speakersDescription_t!''}</p>
-                </div>
-            </div>
+<@studio.componentRootTag
+  $tag="section"
+  id="speakers"
+  class="parallax-section speakers-section"
+>
+  <div class="container">
+    <div class="row">
 
-
-            <div id="owl-speakers" class="owl-carousel">
-
-            <#if (contentModel.speakers_o.item)??><#list contentModel.speakers_o.item as speaker>
-                <div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
-                    <div class="speakers-wrapper">
-                        <img src="${speaker.speakerImage_s!''}" class="img-responsive" alt="speakers">
-                        <div class="speakers-thumb">
-                            <h3>${speaker.speakerName_t!''}</h3>
-                            <h6>${speaker.speakerTitle_t!''}</h6>
-                        </div>
-                    </div>
-                </div>
-            </#list></#if>
-            </div>
-
+      <div class="col-md-12 col-sm-12 wow bounceIn">
+        <div class="section-title">
+          <@studio.h2 $field="speakersTitle_t">
+            ${model.speakersTitle_t!''}
+          </@studio.h2>
+          <@studio.p $field="speakersDescription_t">
+            ${model.speakersDescription_t!''}
+          </@studio.p>
         </div>
+      </div>
+
+      <@studio.renderRepeatCollection
+        $field="speakers_o"
+        $containerTag="div"
+        $containerAttributes={'class': 'owl-carousel', 'id': 'owl-speakers'}
+        $itemTag="div"
+        $itemAttributes={'class': 'item wow fadeInUp col-md-3 col-sm-3', 'data-wow-delay': '0.9s'};
+        speaker, index
+      >
+        <div class="speakers-wrapper">
+          <@studio.img $field="speakers_o.speakerImage_s" $index=index src=(speaker.speakerImage_s!'') class="img-responsive" alt="speakers" />
+          <div class="speakers-thumb">
+            <@studio.h3 $field="speakers_o.speakerName_t" $index=index>
+              ${speaker.speakerName_t!''}
+            </@studio.h3>
+            <@studio.h6 $field="speakers_o.speakerTitle_t" $index=index>
+              ${speaker.speakerTitle_t!''}
+            </@studio.h6>
+          </div>
+        </div>
+      </@studio.renderRepeatCollection>
     </div>
-</section>
+  </div>
+</@studio.componentRootTag>
 
