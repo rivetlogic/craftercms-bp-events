@@ -31,9 +31,9 @@
         <@studio.h3 $field="videoTitle_t">
           ${model.videoTitle_t!''}
         </@studio.h3>
-        <@studio.span $field="videoDescription_t">
+        <@studio.tag $field="videoDescription_t">
           ${model.videoDescription_t!''}
-        </@studio.span>
+        </@studio.tag>
       </div>
       <#if "right" == model.videoPosition_t><@renderVideo/></#if>
     </div>

@@ -23,9 +23,9 @@
         <@studio.h3 $field="imageTitle_t">
           ${model.imageTitle_t!''}
         </@studio.h3>
-        <@studio.span $field="imageDescription_html">
+        <@studio.tag $field="imageDescription_html">
           ${model.imageDescription_html!''}
-        </@studio.span>
+        </@studio.tag>
       </div>
       <#if "right" == model.imagePosition_s><@drawImage/></#if>
 
