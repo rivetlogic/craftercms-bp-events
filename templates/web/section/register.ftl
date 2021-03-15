@@ -21,9 +21,9 @@
         <@studio.h3 $field="description_html">
           ${model.description_html!''}
         </@studio.h3>
-        <@studio.span $field="instructions_html">
+        <@studio.tag $field="instructions_html">
           ${model.instructions_html!''}
-        </@studio.span>
+        </@studio.tag>
       </div>
 
       <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
