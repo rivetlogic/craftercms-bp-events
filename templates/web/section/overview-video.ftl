@@ -17,13 +17,7 @@
   </div>
 </#macro>
 
-<@studio.componentRootTag
-  $tag="section"
-  $attrs={
-    'id': '${model["internal-name"]}',
-    'class': 'parallax-section video-section'
-  }
->
+<section id="${model['internal-name']}" class="parallax-section video-section">
   <div class="container">
     <div class="row">
       <#if "left" == model.videoPosition_t><@renderVideo/></#if>
@@ -38,5 +32,5 @@
       <#if "right" == model.videoPosition_t><@renderVideo/></#if>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 

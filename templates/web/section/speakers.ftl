@@ -3,11 +3,7 @@
     SPEAKERS SECTION
 ============================== -->
 
-<@studio.componentRootTag
-  $tag="section"
-  id="speakers"
-  class="parallax-section speakers-section"
->
+<div id="speakers" class="parallax-section speakers-section" xmlns="http://www.w3.org/1999/html">
   <div class="container">
     <div class="row">
 
@@ -44,5 +40,5 @@
       </@studio.renderRepeatCollection>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 

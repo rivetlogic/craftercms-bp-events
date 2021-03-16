@@ -3,13 +3,7 @@
     PROGRAM SECTION
 ============================== -->
 
-<@studio.componentRootTag
-  $tag="section"
-  $attrs={
-    'id': '${model["internal-name"]}',
-    'class': 'parallax-section program-section'
-  }
->
+<section id="${model['internal-name']}" class="parallax-section program-section">
   <div class="container">
     <div class="row">
 
@@ -113,6 +107,6 @@
       </#if>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 
 

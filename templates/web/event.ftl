@@ -68,11 +68,14 @@
 </div>
 
 <#if (contentModel.sections_o.item)??>
-  <div>
+  <@studio.tag $field="sections_o">
     <#list contentModel.sections_o.item as section>
-      <@renderComponent component=section />
+      <#assign index = section?index />
+      <@studio.tag $field="sections_o" $index=index>
+        <@renderComponent component=section />
+      </@studio.tag>
     </#list>
-  </div>
+  </@studio.tag>
 <#else>
   <section id="contact" class="parallax-section details-section">
     <div class="container">

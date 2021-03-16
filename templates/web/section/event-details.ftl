@@ -3,13 +3,7 @@
     DETAIL SECTION
 ============================== -->
 
-<@studio.componentRootTag
-  $tag="section"
-  $attrs={
-    'id': '${model["internal-name"]}',
-    'class': 'parallax-section details-section'
-  }
->
+<section id="${model['internal-name']}" class="parallax-section details-section">
   <div class="container">
     <@studio.renderRepeatCollection
       $field="detailElements_o"
@@ -28,4 +22,4 @@
       </@studio.p>
     </@studio.renderRepeatCollection>
   </div>
-</@studio.componentRootTag>
+</section>

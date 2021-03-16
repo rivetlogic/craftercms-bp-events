@@ -4,14 +4,7 @@
     CONTACT SECTION
 ============================== -->
 
-<@studio.componentRootTag
-  $tag="section"
-  $attrs={
-    'id': '${model["internal-name"]}',
-    'class': 'parallax-section contact-section',
-    'style': 'background: url(\'${model.bgImage_s!""}\') 50%;'
-  }
->
+<section id="${model['internal-name']}" class="parallax-section contact-section" style="background: url('${model.bgImage_s!""}') 50%;">
   <div class="container">
     <div class="row">
 
@@ -57,4 +50,4 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>

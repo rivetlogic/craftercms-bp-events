@@ -2,13 +2,7 @@
 <!-- =========================
     FAQ SECTION
 ============================== -->
-<@studio.componentRootTag
-  $tag="section"
-  $attrs={
-    'id': '${model["internal-name"]}',
-    'class': 'parallax-section faq-section'
-  }
->
+<section id="${model['internal-name']}" class="parallax-section faq-section">
   <div class="container">
     <div class="row">
 
@@ -61,4 +55,4 @@
 
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
