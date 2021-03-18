@@ -52,7 +52,11 @@
       <#if (contentModel.sections_o.item)??>
         <ul class="nav navbar-nav navbar-right">
           <#list contentModel.sections_o.item as item>
-            <#assign section =  siteItemService.getSiteItem(item.key) />
+            <#if item.component??>
+              <#assign section = item.component />
+            <#else>
+              <#assign section = siteItemService.getSiteItem(item.key) />
+            </#if>
             <#if (section.placeInNav?? && ("true" == section.placeInNav))>
               <li>
                 <a href="#${section['internal-name']!''}" class="smoothScroll">
@@ -68,14 +72,7 @@
 </div>
 
 <#if (contentModel.sections_o.item)??>
-  <@studio.tag $field="sections_o">
-    <#list contentModel.sections_o.item as section>
-      <#assign index = section?index />
-      <@studio.tag $field="sections_o" $index=index>
-        <@renderComponent component=section />
-      </@studio.tag>
-    </#list>
-  </@studio.tag>
+  <@studio.renderComponentCollection $field="sections_o" />
 <#else>
   <section id="contact" class="parallax-section details-section">
     <div class="container">
