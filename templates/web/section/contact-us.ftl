@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!-- =========================
     CONTACT SECTION
@@ -10,15 +10,15 @@
 
       <div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
         <div class="contact_des">
-          <@studio.tag $field="formDescription_html">
+          <@crafter.tag $field="formDescription_html">
             ${model.formDescription_html!''}
-          </@studio.tag>
+          </@crafter.tag>
           <#if model.attachment_o?? && model.attachment_o.item??>
             <a href="${model.attachment_o.item.key}" class="btn btn-danger">
               <#if model.attachmentLabel_t?? && model.attachmentLabel_t?trim?has_content>
-                <@studio.span $field="attachmentLabel_t">
+                <@crafter.span $field="attachmentLabel_t">
                   ${model.attachmentLabel_t}
-                </@studio.span>
+                </@crafter.span>
               <#else>
                 DOWNLOAD
               </#if>
@@ -30,9 +30,9 @@
       <div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
         <div class="contact_detail">
           <div class="section-title">
-            <@studio.h2 $field="formTitle_t">
+            <@crafter.h2 $field="formTitle_t">
               ${model.formTitle_t!''}
-            </@studio.h2>
+            </@crafter.h2>
           </div>
           <form action="/api/1/services/contactUs.json" method="post">
               <#if (model.formFields_o.item)??><#list model.formFields_o.item as field>

@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     FAQ SECTION
 ============================== -->
@@ -10,17 +10,17 @@
       ================================================== -->
       <div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
         <div class="section-title">
-          <@studio.h2 $field="title_t">
+          <@crafter.h2 $field="title_t">
             ${model.title_t!''}
-          </@studio.h2>
-          <@studio.span $field="description_html">
+          </@crafter.h2>
+          <@crafter.span $field="description_html">
             ${model.description_html!''}
-          </@studio.span>
+          </@crafter.span>
         </div>
       </div>
 
       <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
-        <@studio.renderRepeatCollection
+        <@crafter.renderRepeatCollection
           $field="faqs_o"
           $containerTag="div"
           $containerAttributes={'class': 'panel-group', 'id': 'accordion', 'role': 'tablist', 'aria-multiselectable': 'true'}
@@ -35,9 +35,9 @@
                 data-parent="#accordion" href="#collapse-${index}"
                 aria-expanded="false" aria-controls="collapse-${index}"
               >
-                <@studio.span $field="faqs_o.question_t" $index=index>
+                <@crafter.span $field="faqs_o.question_t" $index=index>
                   ${faq.question_t}
-                </@studio.span>
+                </@crafter.span>
               </a>
             </h4>
           </div>
@@ -46,11 +46,11 @@
             class="panel-collapse collapse <#if index==0> in</#if>" role="tabpanel"
             aria-labelledby="heading-${index}"
           >
-            <@studio.tag $field="faqs_o.answer_html" $index=index class="panel-body">
+            <@crafter.tag $field="faqs_o.answer_html" $index=index class="panel-body">
               ${faq.answer_html}
-            </@studio.tag>
+            </@crafter.tag>
           </div>
-        </@studio.renderRepeatCollection>
+        </@crafter.renderRepeatCollection>
       </div>
 
     </div>

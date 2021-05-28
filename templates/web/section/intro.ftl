@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     INTRO SECTION   
 ============================== -->
@@ -8,12 +8,12 @@
 
       <div class="col-md-12 col-sm-12">
         <div>
-          <@studio.h3 $field="datePlace_t" $attrs={'class': 'wow bounceIn', 'data-wow-delay': '0.9s'}>
+          <@crafter.h3 $field="datePlace_t" $attrs={'class': 'wow bounceIn', 'data-wow-delay': '0.9s'}>
             ${model.datePlace_t!""}
-          </@studio.h3>
-          <@studio.h1 $field="title_t" $attrs={'class': 'wow fadeInUp', 'data-wow-delay': '1.6s'}>
+          </@crafter.h3>
+          <@crafter.h1 $field="title_t" $attrs={'class': 'wow fadeInUp', 'data-wow-delay': '1.6s'}>
               ${model.title_t!""}
-          </@studio.h1>
+          </@crafter.h1>
         </div>
 
         <div>
