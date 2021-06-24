@@ -25,9 +25,9 @@
         <@crafter.h3 $field="videoTitle_t">
           ${model.videoTitle_t!''}
         </@crafter.h3>
-        <@crafter.tag $field="videoDescription_t">
+        <@crafter.div $field="videoDescription_t">
           ${model.videoDescription_t!''}
-        </@crafter.tag>
+        </@crafter.div>
       </div>
       <#if "right" == model.videoPosition_t><@renderVideo/></#if>
     </div>

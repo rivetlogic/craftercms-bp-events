@@ -10,9 +10,9 @@
 
       <div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
         <div class="contact_des">
-          <@crafter.tag $field="formDescription_html">
+          <@crafter.div $field="formDescription_html">
             ${model.formDescription_html!''}
-          </@crafter.tag>
+          </@crafter.div>
           <#if model.attachment_o?? && model.attachment_o.item??>
             <a href="${model.attachment_o.item.key}" class="btn btn-danger">
               <#if model.attachmentLabel_t?? && model.attachmentLabel_t?trim?has_content>

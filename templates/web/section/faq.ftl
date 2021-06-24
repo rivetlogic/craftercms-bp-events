@@ -46,9 +46,9 @@
             class="panel-collapse collapse <#if index==0> in</#if>" role="tabpanel"
             aria-labelledby="heading-${index}"
           >
-            <@crafter.tag $field="faqs_o.answer_html" $index=index class="panel-body">
+            <@crafter.div $field="faqs_o.answer_html" $index=index class="panel-body">
               ${faq.answer_html}
-            </@crafter.tag>
+            </@crafter.div>
           </div>
         </@crafter.renderRepeatCollection>
       </div>

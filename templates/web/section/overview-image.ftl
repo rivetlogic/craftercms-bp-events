@@ -17,9 +17,9 @@
         <@crafter.h3 $field="imageTitle_t">
           ${model.imageTitle_t!''}
         </@crafter.h3>
-        <@crafter.tag $field="imageDescription_html">
+        <@crafter.div $field="imageDescription_html">
           ${model.imageDescription_html!''}
-        </@crafter.tag>
+        </@crafter.div>
       </div>
       <#if "right" == model.imagePosition_s><@drawImage/></#if>
 

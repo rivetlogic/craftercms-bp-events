@@ -14,9 +14,9 @@
         <@crafter.h3 $field="description_html">
           ${model.description_html!''}
         </@crafter.h3>
-        <@crafter.tag $field="instructions_html">
+        <@crafter.div $field="instructions_html">
           ${model.instructions_html!''}
-        </@crafter.tag>
+        </@crafter.div>
       </div>
 
       <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
