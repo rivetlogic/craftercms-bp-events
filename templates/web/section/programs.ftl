@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     PROGRAM SECTION
 ============================== -->
@@ -9,12 +9,12 @@
 
       <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
         <div class="section-title">
-          <@studio.h2 $field="sectionTitle_t">
+          <@crafter.h2 $field="sectionTitle_t">
             ${model.sectionTitle_t!''}
-          </@studio.h2>
-          <@studio.p $field="sectionDescription_t">
+          </@crafter.h2>
+          <@crafter.p $field="sectionDescription_t">
             ${model.sectionDescription_t!''}
-          </@studio.p>
+          </@crafter.p>
         </div>
       </div>
       <#if (contentModel.programs_o.item)??>
@@ -65,7 +65,7 @@
               <!-- program speaker here -->
               <div class="col-md-2 col-sm-2">
                   <#if program.programPicture_s?? && program.programPicture_s?trim?has_content>
-                    <@studio.img
+                    <@crafter.img
                       $field="programs_o.programPicture_s"
                       $index=index
                       src=(program.programPicture_s!'')
@@ -78,26 +78,26 @@
                 <h6>
                   <span>
                     <i class="fa fa-clock-o"></i>
-                    <@studio.span $field="programs_o.programTime_t" $index=index>
+                    <@crafter.span $field="programs_o.programTime_t" $index=index>
                       ${program.programTime_t!''}
-                    </@studio.span>
+                    </@crafter.span>
                   </span>
                   <span>
                     <i class="fa fa-map-marker"></i>
-                    <@studio.span $field="programs_o.programLocation_t" $index=index>
+                    <@crafter.span $field="programs_o.programLocation_t" $index=index>
                       ${program.programLocation_t!''}
-                    </@studio.span>
+                    </@crafter.span>
                   </span>
                 </h6>
-                <@studio.h3 $field="programs_o.programTitle_t" $index=index>
+                <@crafter.h3 $field="programs_o.programTitle_t" $index=index>
                   ${program.programTitle_t!''}
-                </@studio.h3>
-                <@studio.h4 $field="programs_o.programSubtitle_t" $index=index>
+                </@crafter.h3>
+                <@crafter.h4 $field="programs_o.programSubtitle_t" $index=index>
                   ${program.programSubtitle_t!''}
-                </@studio.h4>
-                <@studio.p $field="programs_o.programDescription_t" $index=index>
+                </@crafter.h4>
+                <@crafter.p $field="programs_o.programDescription_t" $index=index>
                   ${program.programDescription_t!''}
-                </@studio.p>
+                </@crafter.p>
               </div>
             </#list>
             <#if closePane>

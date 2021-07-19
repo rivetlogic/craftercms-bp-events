@@ -1,11 +1,11 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     DETAIL SECTION
 ============================== -->
 
 <section id="${model['internal-name']}" class="parallax-section details-section">
   <div class="container">
-    <@studio.renderRepeatCollection
+    <@crafter.renderRepeatCollection
       $field="detailElements_o"
       $containerTag="div"
       $containerAttributes={'class': 'row'}
@@ -14,12 +14,12 @@
       item, index
     >
       <i class="${item.elementType_s!''}"></i>
-      <@studio.h3 $field="detailElements_o.elementTitle_t" $index=index>
+      <@crafter.h3 $field="detailElements_o.elementTitle_t" $index=index>
         ${item.elementTitle_t!''}
-      </@studio.h3>
-      <@studio.p $field="detailElements_o.elementDescription_t" $index=index>
+      </@crafter.h3>
+      <@crafter.p $field="detailElements_o.elementDescription_t" $index=index>
         ${item.elementDescription_t!''}
-      </@studio.p>
-    </@studio.renderRepeatCollection>
+      </@crafter.p>
+    </@crafter.renderRepeatCollection>
   </div>
 </section>

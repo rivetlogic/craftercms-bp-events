@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html>
@@ -19,9 +19,11 @@
   <link rel="stylesheet" href="/static-assets/css/style.css">
   <!-- Google Font -->
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+  <@crafter.head/>
 </head>
 
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+<@crafter.body_top/>
 
 <!-- =========================
      PRE LOADER
@@ -43,9 +45,9 @@
         <span class="icon icon-bar"></span>
         <span class="icon icon-bar"></span>
       </button>
-        <@studio.a $field="pageTitle_t" hreh="#" class="navbar-brand">
+        <@crafter.a $field="pageTitle_t" hreh="#" class="navbar-brand">
           ${model.pageTitle_t!""}
-        </@studio.a>
+        </@crafter.a>
     </div>
 
     <div class="collapse navbar-collapse">
@@ -72,7 +74,7 @@
 </div>
 
 <#if (contentModel.sections_o.item)??>
-  <@studio.renderComponentCollection $field="sections_o" />
+  <@crafter.renderComponentCollection $field="sections_o" />
 <#else>
   <section id="contact" class="parallax-section details-section">
     <div class="container">
@@ -92,9 +94,9 @@
     <div class="row">
 
       <div class="col-md-12 col-sm-12 social-spacer">
-        <@studio.span $field="copyright_t" class="wow fadeInUp" $attrs={'data-wow-delay': '0.6s'}>
+        <@crafter.span $field="copyright_t" class="wow fadeInUp" $attrs={'data-wow-delay': '0.6s'}>
           ${model.copyright_t!''}
-        </@studio.span>
+        </@crafter.span>
           <#if (contentModel.socialMedia_o.item)??>
             <ul class="social-icon">
               <#assign delay=1 />
@@ -164,7 +166,7 @@
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-<@studio.initPageBuilder/>
+<@crafter.body_bottom/>
 
 <!-- =========================
      SCRIPTS

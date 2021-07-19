@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     SPEAKERS SECTION
 ============================== -->
@@ -9,16 +9,16 @@
 
       <div class="col-md-12 col-sm-12 wow bounceIn">
         <div class="section-title">
-          <@studio.h2 $field="speakersTitle_t">
+          <@crafter.h2 $field="speakersTitle_t">
             ${model.speakersTitle_t!''}
-          </@studio.h2>
-          <@studio.p $field="speakersDescription_t">
+          </@crafter.h2>
+          <@crafter.p $field="speakersDescription_t">
             ${model.speakersDescription_t!''}
-          </@studio.p>
+          </@crafter.p>
         </div>
       </div>
 
-      <@studio.renderRepeatCollection
+      <@crafter.renderRepeatCollection
         $field="speakers_o"
         $containerTag="div"
         $containerAttributes={'class': 'owl-carousel', 'id': 'owl-speakers'}
@@ -27,17 +27,17 @@
         speaker, index
       >
         <div class="speakers-wrapper">
-          <@studio.img $field="speakers_o.speakerImage_s" $index=index src=(speaker.speakerImage_s!'') class="img-responsive" alt="speakers" />
+          <@crafter.img $field="speakers_o.speakerImage_s" $index=index src=(speaker.speakerImage_s!'') class="img-responsive" alt="speakers" />
           <div class="speakers-thumb">
-            <@studio.h3 $field="speakers_o.speakerName_t" $index=index>
+            <@crafter.h3 $field="speakers_o.speakerName_t" $index=index>
               ${speaker.speakerName_t!''}
-            </@studio.h3>
-            <@studio.h6 $field="speakers_o.speakerTitle_t" $index=index>
+            </@crafter.h3>
+            <@crafter.h6 $field="speakers_o.speakerTitle_t" $index=index>
               ${speaker.speakerTitle_t!''}
-            </@studio.h6>
+            </@crafter.h6>
           </div>
         </div>
-      </@studio.renderRepeatCollection>
+      </@crafter.renderRepeatCollection>
     </div>
   </div>
 </section>
