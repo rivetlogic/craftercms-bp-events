@@ -65,10 +65,10 @@
       </file>
       <file>
          <module>studio</module>
-         <path>notification.xml</path>
+         <path>workflow/notification-config.xml</path>
          <title>confTabNotificationConf</title>
          <description>confTabNotificationConfDesc</description>
-         <samplePath>sample-notification.xml</samplePath>
+         <samplePath>sample-notification-config.xml</samplePath>
       </file>
       <file>
          <module>studio</module>
