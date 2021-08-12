@@ -1,10 +1,10 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     OVERVIEW SECTION
 ============================== -->
 <#macro drawImage>
 	<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
-    <@studio.img $field="image_s" src=(model.image_s) class="img-responsive" alt="Overview" />
+    <@crafter.img $field="image_s" src=(model.image_s) class="img-responsive" alt="Overview" />
 	</div>
 </#macro>
 
@@ -14,12 +14,12 @@
 
       <#if "left" == model.imagePosition_s><@drawImage/></#if>
       <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
-        <@studio.h3 $field="imageTitle_t">
+        <@crafter.h3 $field="imageTitle_t">
           ${model.imageTitle_t!''}
-        </@studio.h3>
-        <@studio.tag $field="imageDescription_html">
+        </@crafter.h3>
+        <@crafter.div $field="imageDescription_html">
           ${model.imageDescription_html!''}
-        </@studio.tag>
+        </@crafter.div>
       </div>
       <#if "right" == model.imagePosition_s><@drawImage/></#if>
 

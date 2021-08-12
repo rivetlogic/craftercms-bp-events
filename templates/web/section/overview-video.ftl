@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
     OVERVIEW SECTION
 ============================== -->
@@ -7,9 +7,9 @@
     <div class="embed-responsive embed-responsive-16by9">
         <#if contentModel.video_s?? && (contentModel.video_s?length>0) >
           <div class="fullscreen-bg">
-            <@studio.video $field="video_s" id="main-video" controls="true" preload="auto" autoplay="true">
+            <@crafter.video $field="video_s" id="main-video" controls="true" preload="auto" autoplay="true">
               <source src="${contentModel.video_s}" type="video/mp4">
-            </@studio.video>
+            </@crafter.video>
           </div>
           <div class="overlay"></div>
         </#if>
@@ -22,12 +22,12 @@
     <div class="row">
       <#if "left" == model.videoPosition_t><@renderVideo/></#if>
       <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
-        <@studio.h3 $field="videoTitle_t">
+        <@crafter.h3 $field="videoTitle_t">
           ${model.videoTitle_t!''}
-        </@studio.h3>
-        <@studio.tag $field="videoDescription_t">
+        </@crafter.h3>
+        <@crafter.div $field="videoDescription_t">
           ${model.videoDescription_t!''}
-        </@studio.tag>
+        </@crafter.div>
       </div>
       <#if "right" == model.videoPosition_t><@renderVideo/></#if>
     </div>

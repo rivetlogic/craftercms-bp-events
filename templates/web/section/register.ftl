@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <!-- =========================
    REGISTER SECTION
 ============================== -->
@@ -8,15 +8,15 @@
     <div class="row">
 
       <div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
-        <@studio.h2 $field="title_t">
+        <@crafter.h2 $field="title_t">
           ${model.title_t!''}
-        </@studio.h2>
-        <@studio.h3 $field="description_html">
+        </@crafter.h2>
+        <@crafter.h3 $field="description_html">
           ${model.description_html!''}
-        </@studio.h3>
-        <@studio.tag $field="instructions_html">
+        </@crafter.h3>
+        <@crafter.div $field="instructions_html">
           ${model.instructions_html!''}
-        </@studio.tag>
+        </@crafter.div>
       </div>
 
       <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
