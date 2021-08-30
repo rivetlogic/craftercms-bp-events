@@ -134,4 +134,14 @@
          <field>disabled</field>
       </ignore-postfix-fields>
    </form-engine>
+   <publishing>
+      <comments>
+         <!-- Global setting would apply to all -->
+         <required>false</required>
+         <!-- Additional (also optional) specific overrides -->
+         <!-- <delete-required/> -->
+         <!-- <bulk-publish-required/> -->
+         <!-- <publish-by-commit-required/> -->
+      </comments>
+   </publishing>
 </site-config>
