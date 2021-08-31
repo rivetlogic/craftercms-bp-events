@@ -35,9 +35,9 @@
    </locale>
 
    <!--
-  Specifies the regular expression patterns to match content type field
-  names that require CDATA escaping.
-  -->
+   Specifies the regular expression patterns to match content type field
+   names that require CDATA escaping.
+   -->
    <cdata-escaped-field-patterns>
       <pattern>(_html|_t|_s|_smv|mvs)$</pattern>
       <pattern>internal-name</pattern>
