@@ -210,7 +210,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte-tinymce5</type>
+               <type>rte</type>
                <id>description_html</id>
                <iceId>faq-section</iceId>
                <title>Description</title>
@@ -347,7 +347,7 @@
                      </constraints>
                   </field>
                   <field>
-                     <type>rte-tinymce5</type>
+                     <type>rte</type>
                      <id>answer_html</id>
                      <iceId>faq-section</iceId>
                      <title>Answer</title>

@@ -210,7 +210,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte-tinymce5</type>
+               <type>rte</type>
                <id>formDescription_html</id>
                <iceId>contact-us</iceId>
                <title>Description</title>

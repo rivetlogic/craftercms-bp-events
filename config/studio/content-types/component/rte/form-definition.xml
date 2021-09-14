@@ -167,7 +167,7 @@
          <defaultOpen>true</defaultOpen>
          <fields>
             <field>
-               <type>rte-tinymce5</type>
+               <type>rte</type>
                <id>body_html</id>
                <iceId>rte-section</iceId>
                <title>Body</title>
