@@ -220,7 +220,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte-tinymce5</type>
+               <type>rte</type>
                <id>videoDescription_t</id>
                <iceId>video-details</iceId>
                <title>Description</title>
