@@ -5,7 +5,7 @@
 
 <section id="${model['internal-name']}" class="parallax-section details-section">
   <div class="container">
-    <@crafter.renderRepeatCollection
+    <@crafter.renderRepeatGroup
       $field="detailElements_o"
       $containerTag="div"
       $containerAttributes={'class': 'row'}
@@ -20,6 +20,6 @@
       <@crafter.p $field="detailElements_o.elementDescription_t" $index=index>
         ${item.elementDescription_t!''}
       </@crafter.p>
-    </@crafter.renderRepeatCollection>
+    </@crafter.renderRepeatGroup>
   </div>
 </section>

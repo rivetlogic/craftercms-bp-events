@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <@crafter.renderRepeatCollection
+      <@crafter.renderRepeatGroup
         $field="speakers_o"
         $containerTag="div"
         $containerAttributes={'class': 'owl-carousel', 'id': 'owl-speakers'}
@@ -37,7 +37,7 @@
             </@crafter.h6>
           </div>
         </div>
-      </@crafter.renderRepeatCollection>
+      </@crafter.renderRepeatGroup>
     </div>
   </div>
 </section>
