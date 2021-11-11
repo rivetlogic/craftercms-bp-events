@@ -21,7 +21,7 @@
       <#if (contentModel.sponsors_o.item)??>
         <#list contentModel.sponsors_o.item as sponsor>
           <#assign index = sponsor?index>
-          <@crafter.div $field="sponsors_o" $index=index class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" $attrs={'data-wow-delay': '0.3s'}>
+          <@crafter.div $field="sponsors_o" $index=index class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" $attrbutes={'data-wow-delay': '0.3s'}>
             <#if sponsor.url_s?? && sponsor.url_s?trim?has_content>
               <a href="${sponsor.url_s!''}">
                 <@crafter.img
