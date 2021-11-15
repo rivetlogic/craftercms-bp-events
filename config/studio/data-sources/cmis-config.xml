@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
+  ~ Copyright (C) 2007-2020 Crafter Software Corporation. All Rights Reserved.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License version 3 as published by
+  ~ the Free Software Foundation.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<!--
     CMIS repositories configuration file. This files configures 0 or more
     CMIS-capable repositories as data-sources for content authors to pick
     from.
@@ -43,16 +59,16 @@ For every repository you need to specify:
 -->
 <cmis>
     <repositories>
-    <!--
-        <repository>
-            <id>alfresco</id>
-            <type>alfresco</type>
-            <url>http://localhost:8080/alfresco</url>
-            <username>guest</username>
-            <password>guest</password>
-            <base-path>/</base-path>
-            <download-url-regex>http://localhost:8080/alfresco/service/api/node/content/workspace/SpacesStore/{item_id}</download-url-regex>
-        </repository>
-    -->
+        <!--
+            <repository>
+                <id>alfresco</id>
+                <type>alfresco</type>
+                <url><url>http://localhost:8080/alfresco/api/-default-/public/cmis/versions/1.1/atom/</url></url>
+                <username>guest</username>
+                <password>guest</password>
+                <base-path>/</base-path>
+                <download-url-regex>http://localhost:8080/alfresco/service/api/node/content/workspace/SpacesStore/{item_id}</download-url-regex>
+            </repository>
+        -->
     </repositories>
 </cmis>
