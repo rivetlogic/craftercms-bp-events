@@ -348,50 +348,49 @@
             </widgets>
         </configuration>
     </widget>
-	<widget id="craftercms.components.TinyMCE">
-		<configuration>
-			<setups>
-				<setup id="generic">
-					<!-- Configuration options: https://www.tiny.cloud/docs/configure/ -->
-					<!-- Plugins: https://www.tiny.cloud/docs/plugins/opensource/ -->
-					<tinymceOptions>
-						<![CDATA[
-							{
-								"menubar": true,
-								"theme": "silver",
-								"plugins": "print preview searchreplace autolink directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount textpattern help acecode paste editform",
-								"extended_valid_elements": "",
-								"valid_children": "",
-								"toolbar1": "formatselect | bold italic strikethrough forecolor backcolor | link | alignleft aligncenter alignright alignjustify | numlist bullist outdent indent | removeformat | editform",
-								"code_editor_wrap": false,
-								"toolbar_sticky": true,
-								"image_advtab": true,
-								"encoding": "xml",
-								"relative_urls": false,
-								"remove_script_host": false,
-								"convert_urls": false,
-								"remove_trailing_brs": false,
-								"media_live_embeds": true,
-								"autoresize_on_init": false,
-								"autoresize_bottom_margin": 0,
-								"menu": {
-									"tools": { "title": "Tools", "items": "tinymcespellchecker code acecode wordcount" }
-								},
-								"automatic_uploads": true,
-								"file_picker_types":  "image media file",
-								"paste_data_images": true,
-								"templates": [],
-								"content_css": [],
-								"content_style": "body {}",
-								"contextmenu": false
-							}
-						]]>
-					</tinymceOptions>
-				</setup>
-			</setups>
-		</configuration>
-	</widget>
-
+    <widget id="craftercms.components.TinyMCE">
+      <configuration>
+        <setups>
+          <setup id="generic">
+            <!-- Configuration options: https://www.tiny.cloud/docs/configure/ -->
+            <!-- Plugins: https://www.tiny.cloud/docs/plugins/opensource/ -->
+            <tinymceOptions>
+              <![CDATA[
+                {
+                  "menubar": true,
+                  "theme": "silver",
+                  "plugins": "print preview searchreplace autolink directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount textpattern help acecode paste editform",
+                  "extended_valid_elements": "",
+                  "valid_children": "",
+                  "toolbar1": "formatselect | bold italic strikethrough forecolor backcolor | link | alignleft aligncenter alignright alignjustify | numlist bullist outdent indent | removeformat | editform",
+                  "code_editor_wrap": false,
+                  "toolbar_sticky": true,
+                  "image_advtab": true,
+                  "encoding": "xml",
+                  "relative_urls": false,
+                  "remove_script_host": false,
+                  "convert_urls": false,
+                  "remove_trailing_brs": false,
+                  "media_live_embeds": true,
+                  "autoresize_on_init": false,
+                  "autoresize_bottom_margin": 0,
+                  "menu": {
+                    "tools": { "title": "Tools", "items": "tinymcespellchecker code acecode wordcount" }
+                  },
+                  "automatic_uploads": true,
+                  "file_picker_types":  "image media file",
+                  "paste_data_images": true,
+                  "templates": [],
+                  "content_css": [],
+                  "content_style": "body {}",
+                  "contextmenu": false
+                }
+              ]]>
+            </tinymceOptions>
+          </setup>
+        </setups>
+      </configuration>
+    </widget>
     <references>
         <reference id="craftercms.siteTools">
             <tools>
@@ -524,6 +523,48 @@
   </body>
 </html>]]></value>
             </htmlPage>
+            <specificHTMLTag label="Field (Specific HTML Tag)">
+              <value><![CDATA[<@crafter.DESIRED_TAG $field="FIELD_ID">${contentModel.FIELD_ID}</@crafter.DESIRED_TAG>]]></value>
+            </specificHTMLTag>
+            <renderComponentCollection label="Render Component Collection">
+              <value><![CDATA[<#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderComponentCollection&check_keywords=yes&area=default -->
+<@crafter.renderComponentCollection $field="features_o" $containerAttributes={ "class": "features-container" } $itemAttributes={ "data-custom-attribute": "true" } />]]></value>
+            </renderComponentCollection>
+            <renderRepeatGroup label="Render Repeat Group">
+              <value><![CDATA[<#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -->
+<@crafter.renderRepeatGroup
+  $field="VARIABLE_NAME"
+  $containerAttributes={'attr': 'value'};
+  item, index
+>
+  <@crafter.div
+    $field="sections_o.section_html"
+    $index=index
+  >
+    ${item.itemField}
+  </@crafter.div>
+</@crafter.renderRepeatGroup>]]></value>
+            </renderRepeatGroup>
+            <navigation label="Navigation">
+              <value><![CDATA[<#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.navigation&check_keywords=yes&area=default -->
+  <@crafter.navigation
+    showNavElement=false
+    url="NAVIGATION_URL"
+    containerElementClass="container-class"
+    itemWrapperClass="item-wrapper-class"
+    itemClass="item-class"
+    depth=2
+  />]]></value>
+            </navigation>
+            <breadcrumb label="Breadcrumb">
+              <value><![CDATA[<#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.breadcrumb&check_keywords=yes&area=default -->
+  <@crafter.breadcrumb
+    url=contentModel.storeUrl
+    containerElementClass="container-element-class"
+    itemWrapperClass="item-wrapper-class"
+    navElementAttributes={ "data-custom-attribute": "true" }
+  />]]></value>
+            </breadcrumb>
         </reference>
         <reference id="craftercms.groovyCodeSnippets">
             <accessContentModel label="Access Content variable">

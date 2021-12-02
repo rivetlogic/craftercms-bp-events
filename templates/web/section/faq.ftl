@@ -20,7 +20,7 @@
       </div>
 
       <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
-        <@crafter.renderRepeatCollection
+        <@crafter.renderRepeatGroup
           $field="faqs_o"
           $containerTag="div"
           $containerAttributes={'class': 'panel-group', 'id': 'accordion', 'role': 'tablist', 'aria-multiselectable': 'true'}
@@ -50,7 +50,7 @@
               ${faq.answer_html}
             </@crafter.div>
           </div>
-        </@crafter.renderRepeatCollection>
+        </@crafter.renderRepeatGroup>
       </div>
 
     </div>
