@@ -114,6 +114,8 @@ $(document).ready(function() {
       }
   });
 
+  // Initialize SmoothScroll on anchors with hrefs of type '#'
+  new SmoothScroll('a[href*="#"]');
 })(jQuery);
 
 var vid = document.getElementById("main-video");
