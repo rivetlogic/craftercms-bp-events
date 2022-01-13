@@ -14,9 +14,9 @@ plugin:
   version:
     major: 2
     minor: 0
-    patch: 9
+    patch: 14
   description: |
-    Events is a single page Crafter 3 blueprint 
+    Events is a single page Crafter 3 blueprint
   website:
     name: "Event"
     url: https://github.com/rivetlogic/craftercms-bp-events.git
