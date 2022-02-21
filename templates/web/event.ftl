@@ -61,8 +61,8 @@
             </#if>
             <#if (section.placeInNav?? && ("true" == section.placeInNav))>
               <li>
-                <a href="#${section['internal-name']!''}" class="smoothScroll">
-                    ${section.navLabel!""}
+                <a href="#${section['internal-name']!''}">
+                  ${section.navLabel!""}
                 </a>
               </li>
             </#if>
@@ -175,7 +175,7 @@
 <script src="/static-assets/js/bootstrap.min.js"></script>
 <script src="/static-assets/js/jquery.parallax.js"></script>
 <script src="/static-assets/js/owl.carousel.min.js"></script>
-<script src="/static-assets/js/smoothscroll.js"></script>
+<script src="/static-assets/js/smooth-scroll.min.js"></script>
 <script src="/static-assets/js/wow.min.js"></script>
 <script src="/static-assets/js/custom.js"></script>
 </body>
