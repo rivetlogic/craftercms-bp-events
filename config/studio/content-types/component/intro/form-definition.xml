@@ -540,7 +540,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>sectionDS</id>
 					<title>Section Data Source</title>
 					<interface>item</interface>
