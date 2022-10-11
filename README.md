@@ -1,6 +1,6 @@
-# Crafter CMS Blueprint: Event
+# CrafterCMS Blueprint: Event
 
-**Event** is a Crafter Studio template for event details, it's based on a theme developed by  
+**Event** is a CrafterCMS template for event details, it's based on a theme developed by  
  [templatemo](http://www.templatemo.com/tm-486-new-event) where is described as a  "fully responsive one-page template for events, conferences or workshops."
  
 # Registration and Contact-Us
