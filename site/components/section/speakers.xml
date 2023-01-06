@@ -11,10 +11,10 @@
 	<speakersTitle_t>CREATIVE SPEAKERS</speakersTitle_t>
 	<placeInNav>true</placeInNav>
 	<speakersDescription_t>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet</speakersDescription_t>
-	<createdDate>2017-5-23T23:15:40.000Z</createdDate>
-	<createdDate_dt>2017-5-23T23:15:40.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-23T23:20:1.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-23T23:20:1.000Z</lastModifiedDate_dt>
+	<createdDate>2017-05-23T23:15:40.000Z</createdDate>
+	<createdDate_dt>2017-05-23T23:15:40.000Z</createdDate_dt>
+	<lastModifiedDate>2017-05-23T23:20:1.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-05-23T23:20:1.000Z</lastModifiedDate_dt>
 	<speakers_o>	<item>	<speakerImage_s>/static-assets/images/speakers-img1.jpg</speakerImage_s>
 	<speakerName_t>Jenny Green</speakerName_t>
 	<speakerTitle_t>UI Designer</speakerTitle_t>

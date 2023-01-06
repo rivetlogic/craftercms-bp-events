@@ -13,10 +13,10 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.&lt;/p&gt;</instructions_html>
 	<file-name>register.xml</file-name>
 	<folder-name/>
-	<createdDate>2017-5-24T0:21:14.000Z</createdDate>
-	<createdDate_dt>2017-5-24T0:21:14.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-24T17:54:44.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-24T17:54:44.000Z</lastModifiedDate_dt>
+	<createdDate>2017-05-24T0:21:14.000Z</createdDate>
+	<createdDate_dt>2017-05-24T0:21:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-05-24T17:54:44.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-05-24T17:54:44.000Z</lastModifiedDate_dt>
 	<bgImage_s>/static-assets/images/register-bg.jpg</bgImage_s>
 	<formFields_o>	<item>	<label_t>First Name</label_t>
 	<name_t>firstName</name_t>
