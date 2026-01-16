@@ -14,7 +14,7 @@ plugin:
   version:
     major: 2
     minor: 0
-    patch: 49
+    patch: 50
   description: |
     Events is a single page Crafter 3 blueprint
   website:
@@ -54,8 +54,8 @@ plugin:
       minor: 3
     - major: 4
       minor: 4
-    - major: 5
-      minor: 0
+    - major: 4
+      minor: 5
   crafterCmsEditions:
     - community
     - enterprise
