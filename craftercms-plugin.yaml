@@ -13,7 +13,7 @@ plugin:
     - event
   version:
     major: 3
-    minor: 0
+    minor: 1
     patch: 0
   description: |
     Events is a single page Crafter 3 blueprint
